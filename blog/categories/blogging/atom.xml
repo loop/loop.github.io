@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | loop]]></title>
   <link href="http://loop.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://loop.github.io/"/>
-  <updated>2013-05-24T15:49:41+01:00</updated>
+  <updated>2013-05-24T20:14:18+01:00</updated>
   <id>http://loop.github.io/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Migrating from Tumblr to Octopress]]></title>
-    <link href="http://loop.github.io/blog/2013/05/24/migrating-from-tumblr-to-octopress/"/>
+    <link href="http://loop.github.io/2013/05/24/migrating-from-tumblr-to-octopress/"/>
     <updated>2013-05-24T14:47:00+01:00</updated>
-    <id>http://loop.github.io/blog/2013/05/24/migrating-from-tumblr-to-octopress</id>
+    <id>http://loop.github.io/2013/05/24/migrating-from-tumblr-to-octopress</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve decided to make a move from Tumblr to static blogging using Octpress, which is hosted on GitHub pages. This gives me the oppurtunity to learn more about Ruby and git. So far I&rsquo;ve managed to sucessfully install Octopress after coming across a load of errors. It took me about four times to have it deployed correctly.</p>
 
 <p>I will fully document about the process after I sucuessfully import my Tumblr posts to here. The importing is where the headache begins.</p>
