@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: hello | My Octopress Blog]]></title>
+  <title><![CDATA[Category: hello | loop]]></title>
   <link href="http://loop.github.io/blog/categories/hello/atom.xml" rel="self"/>
   <link href="http://loop.github.io/"/>
-  <updated>2013-05-24T13:01:05+01:00</updated>
+  <updated>2013-05-24T14:03:22+01:00</updated>
   <id>http://loop.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[loop]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
