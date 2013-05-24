@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[loop]]></title>
-  <link href="http://loop.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: blogging | loop]]></title>
+  <link href="http://loop.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://loop.github.io/"/>
   <updated>2013-05-24T14:53:14+01:00</updated>
   <id>http://loop.github.io/</id>
@@ -21,15 +21,6 @@
     <content type="html"><![CDATA[<p>I&rsquo;ve decided to make a move from Tumblr to static blogging using Octpress, which is hosted on GitHub pages. This gives me the oppurtunity to learn more about Ruby and git. So far I&rsquo;ve managed to sucessfully install Octopress after coming across a load of errors. It took me about four times to have it deployed correctly.</p>
 
 <p>I will fully document about the process after I sucuessfully import my Tumblr posts to here. The importing is where the headache begins.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://loop.github.io/blog/2013/05/24/hello-world/"/>
-    <updated>2013-05-24T12:49:00+01:00</updated>
-    <id>http://loop.github.io/blog/2013/05/24/hello-world</id>
-    <content type="html"><![CDATA[<p>Hello, world! This is a first post from Octopress.</p>
 ]]></content>
   </entry>
   
