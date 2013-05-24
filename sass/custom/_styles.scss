@@ -44,7 +44,8 @@ body {
 			padding-top: 0.3em;
 			padding-bottom: 0.3em;
 			padding-left: 0.5em;
-			padding-right: 0.5em;
+			padding-right: 0em;
+
 		}
 
 		li + li {
@@ -175,4 +176,9 @@ figure.code {
 
 aside {
 	display: none;
+}
+
+article {
+	margin-left: 10px;
+	margin-right: 10px;
 }
