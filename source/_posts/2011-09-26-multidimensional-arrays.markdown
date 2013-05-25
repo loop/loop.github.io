@@ -10,6 +10,11 @@ used to create just one array.
 
 You can call the elements in the multidimensional array by using `firstarray[0][1]` (calls the first element in the first array).
 
-{% gist 5648766 %}
-
-_Note: For some reason Octopress isn't liking the code above when I try to add it directly to the post so had to use a Gist for this._
+```java
+class apples {
+  public static main(String[] args){
+    int firstarray[][] = { {1,2,3,4}, {5,6,7,8} };
+    int secondarray[][] = { {10,11,12,13}, {14,15,16,17,} };
+  }
+}
+```
