@@ -1,0 +1,20 @@
+---
+layout: post
+title: for Loops
+tags:
+- java
+- tutorial 21
+---
+Need 3 conditions, start, middle, end and what what it should do after each
+increment.
+``` java
+import java.util.Scanner;
+
+class apples{
+    public static void main (String[] args) {
+      for (int counter=6;counter<=21;counter++){
+        System.out.println(counter);
+      }
+    }
+}
+```
