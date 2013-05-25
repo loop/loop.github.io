@@ -4,7 +4,7 @@
   <title><![CDATA[loop]]></title>
   <link href="http://loop.github.io/atom.xml" rel="self"/>
   <link href="http://loop.github.io/"/>
-  <updated>2013-05-24T20:17:06+01:00</updated>
+  <updated>2013-05-25T16:14:11+01:00</updated>
   <id>http://loop.github.io/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -30,6 +30,379 @@
     <updated>2013-05-24T12:49:00+01:00</updated>
     <id>http://loop.github.io/2013/05/24/hello-world</id>
     <content type="html"><![CDATA[<p>Hello, world! This is a first post from Octopress.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Journey With iOS And Android]]></title>
+    <link href="http://loop.github.io/2012/09/06/my-journey-with-ios-and-android/"/>
+    <updated>2012-09-06T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/09/06/my-journey-with-ios-and-android</id>
+    <content type="html"><![CDATA[<blockquote><p>Learning never exhausts the mind. &ndash; <em>Leonardo da Vinci</em></p></blockquote>
+
+<p>A couple of months ago I my initial plan was to start learning about iOS and Android development, after a couple of weeks trying to learn the basics on Cocoa and Objective-C. I downloaded the <a href="http://itunes.apple.com/us/itunes-u/ipad-iphone-application-development/id473757255">Stanford iOS Development</a> videos from iTunes U. But before I decided to watch the videos, I thought it would be best if I read up on the concepts on Objective-C so read this basic overview of it from <a href="http://cocoadevcentral.com/d/learn_objectivec/">Cocoa Dev Central</a>. I got up to Lecture 4 and even managed to complete the first assignment.</p>
+
+<p>After a couple of weeks decided to give it a rest as I was finding it difficult to understand and thought it is best I take a break from it to give my mind a rest. So I decided to start on Android. I did have an unfair advantage over Android as I have previous knowledge of Java, so was finding it relatively easier than iOS and was liking it more than iOS and because of this I kept going with it. I am a <a href="http://en.wikipedia.org/wiki/Visual_learning">spatial learner</a> and googled for some good videos which would benefit me, I found a series of YouTube video tutorials from <a href="http://thenewboston.org/list.php?cat=6">thenewboston</a>, these were brilliant (I finished these videos just a couple of days ago), they were short videos lasting around 4-7 minutes each, it goes through majority of the Android SDK which was a major plus. The only downside to the videos was that they were posted in August 2011 so the videos are taught from Honeycomb, but this downside also enabled me to learn more by researching which methods to use when they are depreciated.</p>
+
+<p>That video series coupled with <a href="http://www.stackoverflow.com">Stack Overflow</a> made learning Android so much easier.</p>
+
+<p>Now, after finishing the series I hit a brick wall, I didn’t know what to build, then I remembered that somewhere on the Internet I read that the best way to keep learning how to hack stuff together is by copying other things. I decided to start copying a text to speech app, and I don’t regret that decision one bit. I’ve managed to build something basic albeit the code isn’t very great but this is the best way to learn, start from something basic and gradually start building on that. My plan is to keep continuing with this app and keep learning on how I can make it better and move on to something else when I come up with an idea on my own.</p>
+
+<p>If anyone is looking into learning Android I highly recommend this combination.</p>
+
+<p>My future plan is to keep on with Android and maybe look back into iOS after a year or two.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dear Google, Please Force Developers To Follow Android Design Guidelines]]></title>
+    <link href="http://loop.github.io/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines/"/>
+    <updated>2012-08-22T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines</id>
+    <content type="html"><![CDATA[<p>There have been lots of <a href="http://www.techrepublic.com/blog/smartphones/androids-apps-are-comparatively-ugly-is-linux-to-blame/3601">blog</a><a href="http://www.wired.com/gadgetlab/2012/04/easier-design-apps-ios/">posts</a>, <a href="http://news.yahoo.com/why-android-apps-ugly-164400290.html">articles</a> in the news and <a href="http://www.talkandroid.com/android-forums/android-chat/4483-why-general-ui-most-android-apps-ugly.html">discussions</a> on why apps look <strong>so</strong> much better on iOS than they do on Android. The problem with these articles is that they go straight to the software and blame it, they simply say &ldquo;because iOS is better&rdquo;, I believe this is not the case. Android is not the problem, Android developers are the cause, they think just because it is easy to publish on the Play Store and make money they don&rsquo;t have to care about how their apps look. They simply throw on some shitty design they do in about an hour or two and say that&rsquo;s fine, let&rsquo;s make my self rich.</p>
+
+<p>There are many apps which look amazing, and the commonality between these apps is that they follow the <a href="http://developer.android.com/design/index.html">Android Design Guidelines</a>. Below are screenshots[1] just some of my favourite good designed apps from Android (TED, Foursquare and FlightTrack) :</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m95l3pzyAN1qamsz8.png" alt="" /></p>
+
+<p><img src="http://media.tumblr.com/tumblr_m95l6nLqS31qamsz8.png" alt="" /></p>
+
+<p><img src="http://media.tumblr.com/tumblr_m95l58Z0yi1qamsz8.png" alt="" /></p>
+
+<p>The above screenshots show just how good looking the apps can be, if the developers just took some timeout and focused on designing it, and as you can see they follow the guidelines set by Google.</p>
+
+<p>I just want Google to start looking at how many ugly apps there are in their Play Store and start enforcing developers to follow their guidelines and design better looks apps.</p>
+
+<p>I am aware that Apple makes it easier to design good looking apps because of their Xcode and that for Android it is more time consuming (due to fragmentation) and is a big harder but in this century it is all about how good looking things are, if it looks crap then chances are you will be missing out on many sales/downloads.</p>
+
+<p>I also want developers to focus their apps for Android OS 2.3+, and also the recent study on fragmentation of Android shows that HTC and Samsung are the winners and &ldquo;Testing on the most popular Samsung &amp; HTC devices will get you along way&rdquo;[2].</p>
+
+<p>Just as a side note, I wish developers would stop just porting their iOS designed app to Android, that is not how it is supposed to be done. They are two different OS with many differences. One of the culprits is Instagram, they have 99% copied their iOS design to Android. If they followed the guidelines and designed for Android from ground up this is how good it can look[3]:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m95n5rDC3l1qamsz8.png" alt="" /></p>
+
+<p>So Android developers, go forth and focus on design as much are you are focusing on the code.</p>
+
+<ol>
+<li> The screenshots are taken from <a href="http://androidniceties.tumblr.com">Android niceties</a> blog, this blog highlights the best looking Android apps and worth browsing for inspiration.</li>
+<li> OpenSignalMaps done a <a href="http://opensignalmaps.com/reports/fragmentation.php">study</a> on the fragmentation of the Android market back in May.</li>
+<li> This was designed by <a href="http://www.theverge.com/users/snalty">snalty</a> and posted on <a href="http://www.theverge.com/2012/7/23/3179989/holo-instagram">The Verge forums</a> showing how it would have looked like if they followed the Android design principles.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Transport for London storing passwords in plaintext]]></title>
+    <link href="http://loop.github.io/2012/08/20/transport-for-london-storing-passwords-in-plaintext/"/>
+    <updated>2012-08-20T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/08/20/transport-for-london-storing-passwords-in-plaintext</id>
+    <content type="html"><![CDATA[<p>Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my <a href="https://photocard.tfl.gov.uk">Photocard</a> login from Transport for London, I couldn&rsquo;t remember what this account was for so I decided to login, weirdly it said my password was incorrect, but this would have been impossible for me (unless I got hacked) because I use 1Password to generate random passwords and always store them in the app. Thinking I might have made a mistake when I saved it, I decided to do the good old &ldquo;Forgot your password&rdquo; procedure, entered my email and everything, and then I got the email.</p>
+
+<p>When I got the email, I was amazed to see that it wasn&rsquo;t a link to reset my password but an actually password, I then decided to compare the password in the email and the password I saved in 1Password and then I was shocked to see that they actually emailed me my password.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m92ahhRh6K1qamsz8.png" alt="" /></p>
+
+<p>Now, you might be wondering if they emailed me my password why wasn&rsquo;t I able to login? Let me explain, 99% of my passwords at 16 characters, when I signed up to TfL photocard I created a 16 character password (it didn&rsquo;t give me an error saying it has to less than 16 characters). But the password they emailed me was 10 characters, they truncated my 16 characters password to 10. How can this be possible?</p>
+
+<p>I decided to Google around to see how I can find out if passwords are being stored in plaintext, I came across this question on <a href="http://stackoverflow.com/questions/701801/how-to-tell-if-a-site-stores-passwords-in-plain-text">Stackoverflow</a>.</p>
+
+<p>I read through all of the answers and comparing how TfL gave me my password:</p>
+
+<ol>
+<li> They managed to cut down my 16 character password to 10 and this is only possible if they stored it in plaintext I reckon.</li>
+<li> They emailed me my password in plaintext.</li>
+</ol>
+
+
+<p>I am aware that this might not been they are stored in plaintext but these are very bad security practices for a <strong>government body.</strong></p>
+
+<p>Also TfL has multiple &ldquo;minisites&rdquo; which require a login, and I&rsquo;m not 100% if this is the care for all of them or just this one. But, even if it is this one it is still a shambles because it contains my personal details.</p>
+
+<p>NOTE: I&rsquo;m not 100% sure that they are storing it in plaintext but the way the are sending me my password and somehow managed to update my passwords shows hints they might be and their security practices sucks.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Never Use Black]]></title>
+    <link href="http://loop.github.io/2012/08/13/never-use-black/"/>
+    <updated>2012-08-13T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/08/13/never-use-black</id>
+    <content type="html"><![CDATA[<p><a href="http://ianstormtaylor.com/design-tip-never-use-black/">Never Use Black</a></p>
+
+<blockquote><p>When you put pure black next to a set of meticulously picked colors, the black overpowers everything else. It stands out because it’s not natural.</p></blockquote>
+
+<p>I guess I have some changes to do on this blog. A very interesting article on why we should not use black when designing.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Everything About App.net]]></title>
+    <link href="http://loop.github.io/2012/08/13/everything-about-appnet/"/>
+    <updated>2012-08-13T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/08/13/everything-about-appnet</id>
+    <content type="html"><![CDATA[<p><a href="http://www.orianmarx.com/2012/08/13/how-app-net-can-change-everything/">Everything About App.net</a></p>
+
+<p>I didn&rsquo;t really take much notice of this App.net platform that Dalton Cladwell aims to <a href="http://daltoncaldwell.com/an-audacious-proposal">build</a>,  even though there are numerous amount of tweets on my timeline every other day and just yesterday the project got fully funded at $500k.</p>
+
+<p>This article titled &ldquo;How App.net Can Change Everything&rdquo; by <a href="http://www.twitter.com/Orian">Orian Marx</a> really explains everything and is well worth a read. It isn&rsquo;t just his opinions but information from many different sources as well.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Outlook.com]]></title>
+    <link href="http://loop.github.io/2012/07/31/outlookcom/"/>
+    <updated>2012-07-31T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/31/outlookcom</id>
+    <content type="html"><![CDATA[<p><a href="http://blogs.office.com/b/microsoft-outlook/archive/2012/07/31/introducing-outlook-com-modern-email-for-the-next-billion-mailboxes.aspx">Outlook.com</a></p>
+
+<p>After 15 years Microsoft have &ldquo;fixed&rdquo; Hotmail, or should I say Outlook. It is so much simpler and clean. Even my parents aren&rsquo;t confused with it anymore! Design team at Microsoft are doing their job right!</p>
+
+<p>The one thing which I have found that sucks (security wise) is that apparently with Outlook, your password is limited to only 16 characters long, previously I was able to login fine with my 16+ character password!</p>
+
+<p>Why the sudden change?</p>
+
+<p><img src="http://static.tumblr.com/lf2jfef/7Qimaacck/1.png" alt="Outlook Password Limit" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rethink Digg v1]]></title>
+    <link href="http://loop.github.io/2012/07/30/rethink-digg-v1/"/>
+    <updated>2012-07-30T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/30/rethink-digg-v1</id>
+    <content type="html"><![CDATA[<p><a href="http://rethinkdigg.com/post/28338474438/v1-preview">Rethink Digg v1</a></p>
+
+<p>As much as the new design looks good, it is still going to fail; bringing back the old community will be near impossible no matter what they do and with the likes of Reddit and Hacker News it will be even more difficult for growth. At least it will be fun to watch the &ldquo;(re)making&rdquo; of it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TotalFinder - Finder On Steroids]]></title>
+    <link href="http://loop.github.io/2012/07/29/totalfinder---finder-on-steroids/"/>
+    <updated>2012-07-29T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/29/totalfinder&#8212;finder-on-steroids</id>
+    <content type="html"><![CDATA[<p><a href="http://totalfinder.binaryage.com">TotalFinder &ndash; Finder On Steroids</a></p>
+
+<p>As much as I love Finder I just find navigating multiple windows of Finder really cumbersome. I found TotalFinder which is pretty sweet, it isn&rsquo;t an additional app, it extends Finder. It basically turns Finder into The Hulk and CPU usage is same as Finder which is a big plus. There are many alternative Finders but this one is the best one out there and for a lovely price!</p>
+
+<p><img src="http://static.tumblr.com/lf2jfef/zdmmaacdj/2.png" alt="" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iOS Prototypes]]></title>
+    <link href="http://loop.github.io/2012/07/27/ios-prototypes/"/>
+    <updated>2012-07-27T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/27/ios-prototypes</id>
+    <content type="html"><![CDATA[<p><a href="http://www.theverge.com/2012/7/26/3190849/court-documents-reveal-multiple-ipad-iphone-prototypes-kickstand">iOS Prototypes</a></p>
+
+<p>Apple iOS products that were never destined to see day light. Only chance we will ever get to see Apple prototypes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mother Of All Mac OS X Mountain Lion Reviews]]></title>
+    <link href="http://loop.github.io/2012/07/25/mother-of-all-mac-os-x-mountain-lion-reviews/"/>
+    <updated>2012-07-25T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/25/mother-of-all-mac-os-x-mountain-lion-reviews</id>
+    <content type="html"><![CDATA[<p><a href="http://davidchartier.com/mac-os-x-mountain-lion-review-roundup">Mother Of All Mac OS X Mountain Lion Reviews</a></p>
+
+<p>Mac OS X Mountain Lion was released today and as always there are some big reviews out. This link holds links of the best reviews and my personal favourite from John Siracusa which is over 26,000 words (the usual).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sun - simple iOS weather app]]></title>
+    <link href="http://loop.github.io/2012/07/22/sun---simple-ios-weather-app/"/>
+    <updated>2012-07-22T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/22/sun&#8212;simple-ios-weather-app</id>
+    <content type="html"><![CDATA[<p><a href="http://pattern.dk/sun/">Sun &ndash; simple iOS weather app</a></p>
+
+<p>This is a very simple but good looking weather app. Installation isn&rsquo;t via the App Store, it is done by adding it to your home screen but it acts like a native app. Another app showing that simplicity can add beauty. Kudos to <a href="https://twitter.com/jalifax">Jakob Henner</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sparrow Flies To Google and Acrylic Software Paints With Facebook]]></title>
+    <link href="http://loop.github.io/2012/07/21/sparrow-flies-to-google-and-acrylic-software-paints-with-facebook/"/>
+    <updated>2012-07-21T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/21/sparrow-flies-to-google-and-acrylic-software-paints-with-facebook</id>
+    <content type="html"><![CDATA[<p>Yesterday 2 amazing teams were hired by the big boys. <a href="http://sparrowmailapp.com/">Sparrow</a> was acquired by Google for under <a href="http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client/in/2936538">$25 Million</a>. Sparrow is the best mail client out there, it is so simple and just works. It is such a shame that the development of Sparrow will cease and no new features will be added to their mail clients. Hopefully the team and Google can work together to bring a more awesome mail client.</p>
+
+<blockquote><p>We will continue to make available our existing products, and we will provide support and critical updates to our users. However, as we’ll be busy with new projects at Google, we do not plan to release new features for the Sparrow apps.</p></blockquote>
+
+<p>I can&rsquo;t say that I am surprised about this acquisition, Google&rsquo;s initial release of their GMail app for iOS really sucked and in my opinion still sucks.</p>
+
+<p>I guess it is back to Apple Mail (which is the most crappy piece of software ever).</p>
+
+<p>Another developer team that was &ldquo;acqhired&rdquo; by Facebook was <a href="http://blog.acrylicapps.com/post/27635101056/our-next-project-facebook">Acrylic Software</a>, the makers of the very amazing Pulp news app. If you were using both of their apps (Pulp and Wallet) then you are unlucky, both of their apps are now dead.</p>
+
+<blockquote><p>[…] there are no plans for further development on them.</p></blockquote>
+
+<p>Many of my favourite app developers and teams are getting swallowed by these big dogs, as much as I love Google and Facebook I hope they will put the teams in good use and release good apps.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Neil Gaiman Commencement Speech]]></title>
+    <link href="http://loop.github.io/2012/07/09/neil-gaiman-commencement-speech/"/>
+    <updated>2012-07-09T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/09/neil-gaiman-commencement-speech</id>
+    <content type="html"><![CDATA[<p>This commencement speech by Neil Gaiman at <a href="http://www.uarts.edu/">UArts</a> (<em>every university website should be well designed as UArts website)</em> is probably the next best one after the Steve Jobs <a href="http://www.youtube.com/watch?v=D1R-jKKp3NA">one</a>. He is an amazing author and artist, he was responsible for one of the most amazing comic books <a href="http://en.wikipedia.org/wiki/The_Sandman_(Vertigo">The Sandman</a>) which is on par with Watchmen and The Dark Knight Returns.</p>
+
+<p>If you are an artist of any kind (I consider coding as art!) you need to watch this, it is truly inspiring.</p>
+
+<blockquote><p>Make interesting mistakes, make amazing mistakes, make glorious and fantastic mistakes. Break rules. Leave the world more interesting for you being here.</p>
+
+<p>Make. Good. Art.</p></blockquote>
+
+<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Next Microsoft]]></title>
+    <link href="http://loop.github.io/2012/07/06/the-next-microsoft/"/>
+    <updated>2012-07-06T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/07/06/the-next-microsoft</id>
+    <content type="html"><![CDATA[<p><a href="http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html">The Next Microsoft</a></p>
+
+<p>Andrew Kim, a design student, has completely <a href="http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html">rebranded Microsoft</a> on his own, his rebranding of it is amazing, it is miles better than their new Windows logo and much better than any rebranding they have done before.</p>
+
+<p>The concept of &lsquo;promising a future&rsquo; is brilliant, this is what technology should be doing and this is why it works.</p>
+
+<p>It is time Microsoft hires Andrew Kim and lets him do his magic.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m6qtsgnt3v1qamsz8.jpg" alt="" /></p>
+
+<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Microsoft are doing it right with Surface]]></title>
+    <link href="http://loop.github.io/2012/06/20/microsoft-are-doing-it-right-with-surface/"/>
+    <updated>2012-06-20T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/06/20/microsoft-are-doing-it-right-with-surface</id>
+    <content type="html"><![CDATA[<p>Microsoft announced their a tablet named Surface on Monday and I think it is wonderfully designed (this is how they should design all their products). The only let down of the announcement is the lack of specs information about the tablet, it was in a way an half-arsed announcement, they should have waited until everything was for certain.</p>
+
+<p>The major advantage at the moment that Microsoft has is the beautiful Touch Cover. This is truly going to change the we use tablets, I&rsquo;m not saying by any means that Microsoft will become dominant in the tablet market, I am saying that with a keyboard and Windows 8 you will be able to do more with the Surface than any other Tablet.</p>
+
+<p>Talking about design, I think companies who design their OS should also design their own devices, only the creators can envision what it should truly look like (e.g. Apple and Microsoft now).</p>
+
+<p>Apple disrupted the tablet market when they announcement the iPad and now it is time for Microsoft to show us how we can use their tablet like we use our PC desktops. The Surface is way more power than the iPad with a Intel i5 processor. <a href="http://www.businessinsider.com/how-people-really-use-the-ipad-our-exclusive-survey-results-2011-5?op=1">This</a> survey by Business Insider shows that still over half the people who own the iPad still use their computer, now with Surface that number might decrease even more now that people will have similar processing power as a desktop, only time will tell though.</p>
+
+<p>Everything is going the way of portability, just look at the smartphone industry. We are now using our phones for web browsing, shopping, directions or entertainment purposes, just 10 years ago we weren&rsquo;t even able to do it optimally on our desktops.</p>
+
+<p>Microsoft have certainly caught our eyes with the announcement but in order for it to work they need to get the hardware and the software (the main thing) and the price right. For the time being even with the good looking device I am going remain skeptical about the end product.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m5x7zs6Wvj1qamsz8.jpg" alt="" /></p>
+
+<p><img src="http://media.tumblr.com/tumblr_m5x81fbrAb1qamsz8.jpg" alt="" /></p>
+
+<p><strong>Images Source:</strong> Microsoft <a href="http://www.microsoft.com/surface">Surface Website</a></p>
+
+<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apple iPhone Prediction in 2007]]></title>
+    <link href="http://loop.github.io/2012/06/13/apple-iphone-prediction-in-2007/"/>
+    <updated>2012-06-13T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/06/13/apple-iphone-prediction-in-2007</id>
+    <content type="html"><![CDATA[<p><a href="http://www.bloomberg.com/apps/news?pid=newsarchive&amp;sid=aRelVKWbMAv0">Apple iPhone Prediction in 2007</a></p>
+
+<p><a href="http://www.bloomberg.com/apps/news?pid=newsarchive&amp;sid=aRelVKWbMAv0">This</a> article has been sitting on my Instapaper for nearly 2 months now, I just got a chance to read it and was amazed at it.</p>
+
+<p>To give you a quick insight on the article:</p>
+
+<blockquote><p>The iPhone is nothing more than a luxury bauble that will appeal to a few gadget freaks. In terms of its impact on the industry, the iPhone is less relevant.</p>
+
+<p>Apple will sell a few to its fans, but the iPhone won&rsquo;t make a long-term mark on the industry.</p></blockquote>
+
+<p>Matthew Lynn, the author of this article could not be more wrong.</p>
+
+<p>A quick overview of Apple&rsquo;s numbers shows just how wrong the prediction was:</p>
+
+<p><strong>262 </strong>iPhones sold per minute
+<strong>109</strong> iPads sold per minute<strong>
+365 Million</strong> iOS devices sold</p>
+
+<p><strong>30%</strong> of the US population have an iPhone
+<strong>18,000</strong> people visit Apple Store each week
+<strong>$1598.32</strong> is made in profit each second</p>
+
+<p>Just to put things into perspective, more iPhones are being sold than people being born everyday.</p>
+
+<p><strong>Source</strong>: Numbers are from <a href="http://investor.apple.com/sec.cfm">SEC Filings</a> on Apple&rsquo;s website and <a href="http://www.ritholtz.com/blog/2012/04/apple-by-the-numbers/">Apple by the Numbers</a> by Barry Ritholtz.</p>
+
+<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We are not ready for MacBook Pro with Retina Display]]></title>
+    <link href="http://loop.github.io/2012/06/12/we-are-not-ready-for-macbook-pro-with-retina-display/"/>
+    <updated>2012-06-12T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/06/12/we-are-not-ready-for-macbook-pro-with-retina-display</id>
+    <content type="html"><![CDATA[<p><a href="http://www.wired.com/gadgetlab/2012/06/macbook-pro-with-retina-display-gives-apple-a-1-year-lead-on-ultrabooks/">We are not ready for MacBook Pro with Retina Display</a></p>
+
+<p>Yesterday at WWDC Apple announced the &ldquo;the most <em>amazing</em> computer we have ever made&rdquo; the <a href="http://www.apple.com/macbook-pro/features/">MacBook Pro with Retina Display</a>.</p>
+
+<blockquote><p>Apple’s next-generation MacBook Pro is about as thin as a MacBook Air, as fast as high-end desktop computers, and features the highest-resolution notebook screen ever made. And, according to industry analysts, the new notebook pushes Apple at least a year ahead of the best competing ultrabooks and high-end PC notebooks.</p></blockquote>
+
+<p>I have to highly disagree with this, even though the hardware and the software Apple made for their computers are amazing, this Retina Display is going to be bad, and I mean really bad.</p>
+
+<p>If you have the new iPad you can see as you browse, some of the websites looks blurry and pretty pixelated. And this is what you are going to be seeing on the Retina Display as well, the web just isn&rsquo;t ready for high resolution images. With high resolution images there comes large file sizes which means websites will take longer for people to load and will also eat up more bandwidth, while this is not that big much of a problem it is still a problem, and I think Apple sees this as well. This is probably why they have only released one notebook with Retina Display technology.</p>
+
+<p>Apple has brought this out way too soon, and we just aren&rsquo;t ready yet. Maybe in 2 years time (or even more)!</p>
+
+<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[wget on Mac OS X]]></title>
+    <link href="http://loop.github.io/2012/05/28/wget-on-mac-os-x/"/>
+    <updated>2012-05-28T00:00:00+01:00</updated>
+    <id>http://loop.github.io/2012/05/28/wget-on-mac-os-x</id>
+    <content type="html"><![CDATA[<p>When I tried to make a local mirror of a site I was surprised to find out that wget is not installed by default on the OS X.</p>
+
+<p>I looked around for a solution and most of them say to install MacPorts or something other silly things. In the end I found a easy way to install wget, before you install it using this method you need to have <a href="http://itunes.apple.com/us/app/xcode/id497799835?ls=1&amp;mt=12">Xcode</a> as it has some prerequisites required for installing wget.</p>
+
+<p>To install wget run these commands in Terminal:</p>
+
+<ol>
+<li><p> Downloads the source.</p>
+
+<p><code>curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.4.tar.gz</code></p></li>
+<li><p> Uncompress the source.</p>
+
+<p><code>tar -xzf wget-1.13.4.tar.gz</code></p></li>
+<li><p> Change directory into the source.</p>
+
+<p><code>cd wget-1.13.4</code></p></li>
+<li><p> Changes a few settings to prevent a “GNUTLS not available” error.</p>
+
+<p><code>./configure --with-ssl=openssl</code></p></li>
+<li><p> Builds the source.</p>
+
+<p><code>make</code></p></li>
+<li><p> Installs wget.</p>
+
+<p><code>sudo make install</code></p></li>
+<li><p> Check to see wget is installed correctly.</p>
+
+<p><code>wget --help</code></p></li>
+<li><p> Clean up by removing the wget download files.</p>
+
+<p><code>cd .. &amp;&amp; rm -rf wget*</code></p></li>
+</ol>
+
+
+<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
 ]]></content>
   </entry>
   
