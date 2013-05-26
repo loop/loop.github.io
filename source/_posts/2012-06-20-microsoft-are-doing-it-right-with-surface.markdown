@@ -10,6 +10,7 @@ tags:
 - Apple
 - iPad
 - Product
+alias: /post/25505817842/microsoft-are-doing-it-right-with-surface
 ---
 Microsoft announced their a tablet named Surface on Monday and I think it is wonderfully designed (this is how they should design all their products). The only let down of the announcement is the lack of specs information about the tablet, it was in a way an half-arsed announcement, they should have waited until everything was for certain.
 

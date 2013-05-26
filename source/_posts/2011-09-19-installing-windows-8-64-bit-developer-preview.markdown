@@ -10,6 +10,7 @@ tags:
 - ISO
 - Bootable
 - USB
+alias: /post/10411985822/installing-windows-8-64-bit-developer-preview
 ---
 _Quick note: Before I start my blog posts on Windows 8 will be from the
 perspective of a new developer who is still learning and starting university,

@@ -10,6 +10,7 @@ tags:
 - Acquisitions
 - Software
 - iOS
+alias: /post/27694542782/sparrow-flies-to-google-and-acrylic-software-paints
 ---
 Yesterday 2 amazing teams were hired by the big boys. [Sparrow](http://sparrowmailapp.com/) was acquired by Google for under [$25 Million](http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client/in/2936538). Sparrow is the best mail client out there, it is so simple and just works. It is such a shame that the development of Sparrow will cease and no new features will be added to their mail clients. Hopefully the team and Google can work together to bring a more awesome mail client.
 

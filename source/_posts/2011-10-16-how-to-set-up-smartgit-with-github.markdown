@@ -9,6 +9,7 @@ tags:
 - Set Up
 - GUI
 - Windows
+alias: /post/11528283285/how-to-set-up-smartgit-with-github
 ---
 I've decided it is better for me to use a Git GUI for GitHub as I don't have much time to manage projects on Ubuntu and use command line. I've come across SmartGit, and it seems to be the best one for Windows out there.
 

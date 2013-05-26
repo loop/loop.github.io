@@ -6,6 +6,7 @@ tags:
 - iPad
 - Apps
 - How to
+alias: /post/8047304218/posterous-for-ipad
 ---
 I recently got an iPad 2 and it seems I can do a lot of stuff from it! The
 only things I use my desktop is for programming and work things. I use

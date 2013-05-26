@@ -10,6 +10,7 @@ tags:
 - Safari
 - UI
 - Opera
+alias: /post/13679986793/how-to-get-the-new-google-bar-with-a-cookie-tweak
 ---
 I've seen a blog [post](http://feeds.gawker.com/~r/lifehacker/vip/~3/28C0NJYiwYc/get-the-new-google-bar-now-with-a-cookie-tweak) on Lifehacker about getting the new [Google Bar](http://googleblog.blogspot.com/2011/11/next-stage-in-our-redesign.html). It has some pointless shit on installing a Google Chrome extension, that is really unnecessary! You can just do it via the console on the browser.
 

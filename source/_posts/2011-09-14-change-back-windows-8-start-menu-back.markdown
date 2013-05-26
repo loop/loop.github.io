@@ -10,6 +10,7 @@ tags:
 - Start Menu
 - Original
 - Registry
+alias: /post/10203689561/change-back-windows-8-start-menu-back
 ---
 The new start menu when you you click on the Windows logo isn't the same
 anymore in Windows 8, but now you can change it back to the original design by

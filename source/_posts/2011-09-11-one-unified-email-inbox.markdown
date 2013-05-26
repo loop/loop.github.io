@@ -6,6 +6,7 @@ tags:
 - services
 - email
 - productivity
+alias: /post/10077805332/one-unified-email-inbox
 ---
 I got really tired of having mutiple email addresses, even two was too many
 for me. So I decided to redirect all email to my main email address, label

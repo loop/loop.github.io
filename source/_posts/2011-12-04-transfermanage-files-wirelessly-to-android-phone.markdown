@@ -8,6 +8,7 @@ tags:
 - Remote Connection
 - Wireless
 - File Transfer
+alias: /post/13726454490/transfer-manage-files-wirelessly-to-android-phone
 ---
 I'm really tired of trying to find my USB cable, I always seem to be misplace it. I believe the best way to transfer and manage your files from one device to another is doing it wirelessly.
 

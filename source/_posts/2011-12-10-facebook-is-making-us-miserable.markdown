@@ -6,6 +6,7 @@ tags:
 - Life
 - Quit
 - Study
+alias: /post/14034730920/facebook-is-making-us-miserable
 ---
 [Facebook Is Making Us Miserable](http://blogs.hbr.org/cs/2011/12/facebook_is_making_us_miserabl.html)
 

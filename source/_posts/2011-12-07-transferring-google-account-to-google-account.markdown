@@ -14,6 +14,7 @@ tags:
 - Google Plus
 - Analytics
 - Docs
+alias: /post/13883397786/transferring-google-account-to-google-account
 ---
 I recently decided to change one from Google Account to another Google account mainly because my email address was a very childish one and felt like a idiot giving it to others, I had a second email address which was just my name which is very simple. I used Gmail's Send mail as and forward feature but it was annoying and didn't work some times so decided to make a move.
 

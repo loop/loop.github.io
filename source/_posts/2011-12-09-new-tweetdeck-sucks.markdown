@@ -9,6 +9,7 @@ tags:
 - Sucks
 - Windows
 - Mac OS X
+alias: /post/13980108105/new-tweetdeck-sucks
 ---
 [TweetDeck](http://www.tweetdeck.com/), now owned by Twitter finally came out of beta an released version 1.0 on Thursday 8th December at the same time that Twitter announced [Fly](http://fly.twitter.com/), the next step for Twitter.
 

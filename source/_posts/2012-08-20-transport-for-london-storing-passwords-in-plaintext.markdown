@@ -6,6 +6,7 @@ tags:
 - UK
 - Transport for London
 - Cryptography
+alias: /post/29832567486/transport-for-london-storing-passwords-in-plaintext
 ---
 Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my [Photocard](https://photocard.tfl.gov.uk) login from Transport for London, I couldn't remember what this account was for so I decided to login, weirdly it said my password was incorrect, but this would have been impossible for me (unless I got hacked) because I use 1Password to generate random passwords and always store them in the app. Thinking I might have made a mistake when I saved it, I decided to do the good old "Forgot your password" procedure, entered my email and everything, and then I got the email.
 

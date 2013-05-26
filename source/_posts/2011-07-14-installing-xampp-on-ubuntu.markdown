@@ -8,6 +8,7 @@ tags:
 - installation
 - server
 - apache
+alias: /post/7617009477/installing-xampp-on-ubuntu
 ---
 Follow these simple steps to install XAMPP on Ubuntu:
 

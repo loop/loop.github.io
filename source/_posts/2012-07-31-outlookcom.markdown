@@ -7,6 +7,7 @@ tags:
 - Outlook
 - Design
 - Update
+alias: /post/28424104808/outlook-com
 ---
 [Outlook.com](http://blogs.office.com/b/microsoft-outlook/archive/2012/07/31/introducing-outlook-com-modern-email-for-the-next-billion-mailboxes.aspx)
 

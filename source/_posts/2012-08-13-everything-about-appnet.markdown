@@ -7,6 +7,7 @@ tags:
 - App.net
 - Investment
 - Information
+alias: /post/29338468942/everything-about-app-net
 ---
 [Everything About App.net](http://www.orianmarx.com/2012/08/13/how-app-net-can-change-everything/)
 

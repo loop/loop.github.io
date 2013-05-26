@@ -9,6 +9,7 @@ tags:
 - Learning
 - Apps
 - Applications
+alias: /post/31001053428/my-journey-with-ios-and-android
 ---
 > Learning never exhausts the mind. - _Leonardo da Vinci_
 

@@ -5,6 +5,7 @@ tags:
 - Apple
 - Prototypes
 - iOS
+alias: /post/28121185520/ios-prototypes
 ---
 [iOS Prototypes](http://www.theverge.com/2012/7/26/3190849/court-documents-reveal-multiple-ipad-iphone-prototypes-kickstand)
 

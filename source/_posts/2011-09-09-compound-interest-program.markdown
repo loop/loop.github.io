@@ -4,6 +4,7 @@ title: Compound Interest Program
 tags:
 - java
 - tutorial 22
+alias: /post/9995979374/compound-interest-program
 ---
 ``` java
 import java.util.Scanner;

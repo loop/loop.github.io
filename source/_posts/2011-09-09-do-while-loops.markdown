@@ -4,6 +4,7 @@ title: do while Loops
 tags:
 - java
 - tutorial 23
+alias: /post/9996172612/do-while-loops
 ---
 ``` java
 class apples{

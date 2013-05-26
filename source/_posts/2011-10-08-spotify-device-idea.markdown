@@ -8,6 +8,7 @@ tags:
 - Premium
 - Product Idea
 - Music
+alias: /post/11177124122/spotify-device-idea
 ---
 I think there is a big need for a device made specifically for Spotify, I know
 you can use it on your Andriod and iOS devices but having a device which is

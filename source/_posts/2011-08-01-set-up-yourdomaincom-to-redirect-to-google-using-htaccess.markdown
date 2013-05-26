@@ -5,6 +5,7 @@ tags:
 - .htaccess
 - google plus
 - google+
+alias: /post/8337538724/set-up-yourdomain-com-to-redirect-to-google-using
 ---
 Create a .htaccess if you haven't already got one and add:
 

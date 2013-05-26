@@ -10,6 +10,7 @@ tags:
 - ePub
 - MOBI
 - PDF
+alias: /post/14914362524/download-hacker-monthly-issues-1-19
 ---
 The print magazine [Hacker Monthly](http://www.hackermonthly.com/) gave everyone a present on 25th for 24 hours only, it was free download to all issues from 1-19. This includes ePub, MOBI and PDF. [Here](http://hackermonthly.posterous.com/) is their blog post about it.
 

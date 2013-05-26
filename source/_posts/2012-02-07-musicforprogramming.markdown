@@ -6,6 +6,7 @@ tags:
 - Music
 - Productivity
 - Programming
+alias: /post/17220944685/musicforprogramming
 ---
 [musicForProgramming();](http://musicforprogramming.net)
 

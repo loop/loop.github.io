@@ -8,6 +8,7 @@ tags:
 - Feature
 - Safety
 - Virus
+alias: /post/15958692348/login-to-google-account-using-qr-code
 ---
 This is something really awesome which I came across on [HackerNews](http://news.ycombinator.com/item?id=3469692), it is a way to logon to your Google Account without typing in your google credentials.
 

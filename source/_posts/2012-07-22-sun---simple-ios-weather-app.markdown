@@ -5,6 +5,7 @@ tags:
 - iOS
 - App
 - Web App
+alias: /post/27757261947/sun-simple-ios-weather-app
 ---
 [Sun - simple iOS weather app](http://pattern.dk/sun/)
 

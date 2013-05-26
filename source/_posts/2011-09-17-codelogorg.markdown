@@ -3,6 +3,7 @@ layout: post
 title: codelog.org
 tags:
 - news
+alias: /post/10312531982/codelog-org
 ---
 I have decided to buy the domain codelog.org to go with this blog. It seems
 I'm using this quite a lot to share everything to do with code and computers.

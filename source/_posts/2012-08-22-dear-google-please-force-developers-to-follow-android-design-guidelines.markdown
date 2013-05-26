@@ -9,6 +9,7 @@ tags:
 - Developers
 - Code
 - Apple
+alias: /post/29960507414/dear-google-please-force-developers-to-follow-android
 ---
 There have been lots of [blog](http://www.techrepublic.com/blog/smartphones/androids-apps-are-comparatively-ugly-is-linux-to-blame/3601)[posts](http://www.wired.com/gadgetlab/2012/04/easier-design-apps-ios/), [articles](http://news.yahoo.com/why-android-apps-ugly-164400290.html) in the news and [discussions](http://www.talkandroid.com/android-forums/android-chat/4483-why-general-ui-most-android-apps-ugly.html) on why apps look **so** much better on iOS than they do on Android. The problem with these articles is that they go straight to the software and blame it, they simply say "because iOS is better", I believe this is not the case. Android is not the problem, Android developers are the cause, they think just because it is easy to publish on the Play Store and make money they don't have to care about how their apps look. They simply throw on some shitty design they do in about an hour or two and say that's fine, let's make my self rich.
 

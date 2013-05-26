@@ -11,6 +11,7 @@ tags:
 - Death
 - Legacy
 - Legend
+alias: /post/11096219800/my-tribute-to-steve-jobs
 ---
 I woke up today and stared at Twitter on my phone as my timeline was filled
 with tweets about "R.I.P. Steve Jobs", at first I thought it was just one of

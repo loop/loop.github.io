@@ -5,6 +5,7 @@ tags:
 - iphone
 - jailbreak
 - error
+alias: /post/7340633442/cydia-icon-not-appearing-using-jailbreakme-3-0
 ---
 I've been waiting for a easy jailbreak application to come and it has and it
 is [JailbreakMe 3.0](http://jailbreakme.com), I upgraded my iPhone 3GS to

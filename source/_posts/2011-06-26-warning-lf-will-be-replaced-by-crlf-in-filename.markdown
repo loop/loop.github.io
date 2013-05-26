@@ -6,6 +6,7 @@ tags:
 - github
 - error
 - ubuntu
+alias: /post/6940124719/warning-lf-will-be-replaced-by-crlf-in-filename
 ---
 While I was pushing my current projects to Github I came across this error
 "Warning: LF will be replaced by CRLF in FILENAME". It seems due to the fact

@@ -7,6 +7,7 @@ tags:
 - Dropbox
 - SugarSync
 - Data Loss
+alias: /post/9132276731/how-im-stopping-data-loss-from-killing-me
 ---
 In this digital world data is key and very important, there is probably not
 one person who doesn't have data. Wether the data is just useless crap or

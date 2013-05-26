@@ -9,6 +9,7 @@ tags:
 - Update
 - UI
 - Design
+alias: /post/10976876616/new-android-market-ui
 ---
 Opened Android Market today on my Galaxy S II to find that the UI has updated,
 it looks similar to Metro UI by Microsoft but none the less it does look good,

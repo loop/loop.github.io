@@ -6,6 +6,7 @@ tags:
 - Design
 - Release
 - BetaWorks
+alias: /post/28341887930/rethink-digg-v1
 ---
 [Rethink Digg v1](http://rethinkdigg.com/post/28338474438/v1-preview)
 

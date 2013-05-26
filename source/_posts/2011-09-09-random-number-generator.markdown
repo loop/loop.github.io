@@ -4,6 +4,7 @@ title: Random Number Generator
 tags:
 - java
 - tutorial 26
+alias: /post/9996612726/random-number-generator
 ---
 ``` java
 import java.util.Random;

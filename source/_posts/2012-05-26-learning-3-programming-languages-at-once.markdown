@@ -6,6 +6,7 @@ tags:
 - objective-c
 - javascript
 - ruby
+alias: /post/23817124768/learning-3-programming-languages-at-once
 ---
 I have decided to set my self a challenge for the next 4 months or so (while 4 months is not enough I will try my best), this challenge will be to learn 3 programming languages at once. I want to learn more than one language at once because it will help me understand different techniques and allow me to apply these techniques in order for me to solve a problem, for example if I were to get stuck on solving something in one language, while I am learning something in the other language it  might help me figure out how I can solve the initial problem. Learning these new languages will also let me build something useful which I have wanted to do for a very long time now.
 

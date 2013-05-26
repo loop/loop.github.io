@@ -6,6 +6,7 @@ tags:
 - WWDC
 - Retina Display
 - MacBook Pro
+alias: /post/24976243020/we-are-not-ready-for-macbook-pro-with-retina-display
 ---
 [We are not ready for MacBook Pro with Retina Display](http://www.wired.com/gadgetlab/2012/06/macbook-pro-with-retina-display-gives-apple-a-1-year-lead-on-ultrabooks/)
 

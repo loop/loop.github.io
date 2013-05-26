@@ -7,6 +7,7 @@ tags:
 - google
 - pinboard
 - personal views
+alias: /post/7531352211/how-im-living-in-the-cloud-and-loving-it
 ---
 Firstly let me just say that the title maybe a little misleading, I haven't
 completely moved to the cloud yet, the majority of the things I do on my

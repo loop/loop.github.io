@@ -8,6 +8,7 @@ tags:
 - Tips
 - Hidden Files
 - Finder
+alias: /post/16224627186/how-to-show-hidden-files-in-mac-os-x-lion
 ---
 I recently got a MacBook Pro and am still setting it up. I recently ran into the annoying .DS_Store files while committing to GitHub. I decided to create .gitignore and it seems there isn't a easy way to make hidden files visible other than doing it via Terminal. The steps to make hidden files visible are below.
 

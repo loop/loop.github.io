@@ -4,6 +4,7 @@ title: for Loops
 tags:
 - java
 - tutorial 21
+alias: /post/9995778443/for-loops
 ---
 Need 3 conditions, start, middle, end and what what it should do after each
 increment.

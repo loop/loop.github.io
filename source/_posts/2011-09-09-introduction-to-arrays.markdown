@@ -4,6 +4,7 @@ title: Introduction to Arrays
 tags:
 - java
 - tutorial 27
+alias: /post/9996915793/introduction-to-arrays
 ---
 ``` java
 class apples {

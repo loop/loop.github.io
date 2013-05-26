@@ -4,6 +4,7 @@ title: TotalFinder - Finder On Steroids
 tags:
 - Apple
 - TotalFinder
+alias: /post/28264020710/totalfinder-finder-on-steroids
 ---
 [TotalFinder - Finder On Steroids](http://totalfinder.binaryage.com)
 

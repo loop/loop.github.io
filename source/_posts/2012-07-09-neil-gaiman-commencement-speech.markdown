@@ -8,6 +8,7 @@ tags:
 - Inspiration
 - Mistakes
 - Steve Jobs
+alias: /post/26843480887/neil-gaiman-commencement-speech
 ---
 This commencement speech by Neil Gaiman at [UArts](http://www.uarts.edu/) (_every university website should be well designed as UArts website)_ is probably the next best one after the Steve Jobs [one](http://www.youtube.com/watch?v=D1R-jKKp3NA). He is an amazing author and artist, he was responsible for one of the most amazing comic books [The Sandman](http://en.wikipedia.org/wiki/The_Sandman_(Vertigo)) which is on par with Watchmen and The Dark Knight Returns.
 

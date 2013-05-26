@@ -6,6 +6,7 @@ tags:
 - computer science
 - MIT
 - tutorials
+alias: /post/7383944433/computer-science-and-programming
 ---
 [Computer Science and Programming](http://ocw.mit.edu/courses/electrical-
 engineering-and-computer-science/6-00-introduction-to-computer-science-and-

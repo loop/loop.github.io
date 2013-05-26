@@ -7,6 +7,7 @@ tags:
 - Top 5
 - Applications
 - Apps
+alias: /post/12571061537/my-top-5-computer-apps
 ---
   1. [Dropbox](http://www.dropbox.com)
   2. [Wunderlist](http://www.6wunderkinder.com/wunderlist/)

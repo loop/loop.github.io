@@ -10,6 +10,7 @@ tags:
 - '2012'
 - Comic Books
 - Superheros
+alias: /post/14411957795/this-is-the-new-leaked-trailer-for-the-dark
 ---
 
 

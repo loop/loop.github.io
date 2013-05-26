@@ -6,6 +6,7 @@ tags:
 - wget
 - mac os x
 - installation
+alias: /post/23928049116/wget-on-mac-os-x
 ---
 When I tried to make a local mirror of a site I was surprised to find out that wget is not installed by default on the OS X.
 

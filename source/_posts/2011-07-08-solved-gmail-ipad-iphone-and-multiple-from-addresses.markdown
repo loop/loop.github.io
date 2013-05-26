@@ -5,6 +5,7 @@ tags:
 - inbox
 - iOS
 - gmail
+alias: /post/7394635775/solved-gmail-ipad-iphone-and-multiple-from
 ---
 [Solved: Gmail, iPad, iPhone, and multiple from
 addresses](http://modernerd.com/post/535350679)

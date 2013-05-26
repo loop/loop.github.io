@@ -6,6 +6,7 @@ tags:
 - command line
 - wget
 - website
+alias: /post/7461036665/wgetting-a-website
 ---
 `wget -m -p -P ~/website example.com`
 

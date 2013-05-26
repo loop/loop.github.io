@@ -4,6 +4,7 @@ title: Creating an Array Table
 tags:
 - java
 - tutorial 28
+alias: /post/9997119719/creating-an-array-table
 ---
 ``` java
 class apples {

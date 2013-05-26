@@ -4,6 +4,7 @@ title: Multidimensional Arrays
 tags:
 - java
 - tutorial 33
+alias: /post/10683046970/multidimensional-arrays
 ---
 You can create multidimensional array by by using `[][]` instead of `[], []` is
 used to create just one array.

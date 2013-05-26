@@ -4,6 +4,7 @@ title: Array Elements as Counters
 tags:
 - java
 - tutorial 30
+alias: /post/9997604120/array-elements-as-counters
 ---
 ``` java
     import java.util.Random;

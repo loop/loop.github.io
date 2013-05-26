@@ -4,6 +4,7 @@ title: Conditional Operators
 tags:
 - java
 - tutorial 20
+alias: /post/9995064332/conditional-operators
 ---
 Another way of writing if else statements, add question mark after the
 condition. Treats it as boolean expression. Give it two options. True =

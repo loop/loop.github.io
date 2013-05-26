@@ -4,6 +4,7 @@ title: Summing Elements of Arrays
 tags:
 - java
 - tutorial 29
+alias: /post/9997236831/summing-elements-of-arrays
 ---
 ``` java
 class apples{
