@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[loop]]></title>
+  <title><![CDATA[Finite Post]]></title>
   <link href="http://finitepost.com/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-05-26T16:34:51+01:00</updated>
+  <updated>2013-05-26T16:41:11+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
