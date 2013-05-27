@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /colophon/
 
-Sitemap: http://finitepost.com/sitemap.xml 
+Sitemap: http://finitepost.com/sitemap.xml
