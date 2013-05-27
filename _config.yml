@@ -98,3 +98,10 @@ google_analytics_tracking_id: UA-8387189-19
 
 # Facebook Like
 facebook_like: false
+
+permalink_label: "&#9733;"
+permalink_label_feed: "&#9733;"
+linklog_marker:
+linklog_marker_position:
+linklog_marker_position_feed:
+standard_post_marker: "&#9733; "

@@ -7,6 +7,7 @@ tags:
 - Branding
 - Logo
 alias: /post/26629306483/the-next-microsoft
+external-url: http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html
 ---
 [The Next Microsoft](http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html)
 

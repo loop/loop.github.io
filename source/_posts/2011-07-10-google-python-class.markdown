@@ -4,6 +4,7 @@ title: Google Python Class
 tags:
 - Google
 - Python
+external-url: http://code.google.com/edu/languages/google-python-class/set-up.html
 alias: /post/7460723812/google-python-class
 ---
 [Google Python Class](http://code.google.com/edu/languages/google-python-class

@@ -7,6 +7,7 @@ tags:
 - Reviews
 - Ars Technica
 alias: /post/27984139628/mother-of-all-mac-os-x-mountain-lion-reviews
+external-url: http://davidchartier.com/mac-os-x-mountain-lion-review-roundup
 ---
 [Mother Of All Mac OS X Mountain Lion Reviews](http://davidchartier.com/mac-os-x-mountain-lion-review-roundup)
 

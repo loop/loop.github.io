@@ -7,6 +7,7 @@ tags:
 - Productivity
 - Programming
 alias: /post/17220944685/musicforprogramming
+external-url: http://musicforprogramming.net
 ---
 [musicForProgramming();](http://musicforprogramming.net)
 

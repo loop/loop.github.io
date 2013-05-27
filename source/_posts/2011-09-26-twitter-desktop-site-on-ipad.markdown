@@ -7,6 +7,7 @@ tags:
 - Desktop site
 - Tweak
 alias: /post/10696356223/twitter-desktop-site-on-ipad
+external-url: http://mobile.twitter.com/settings/change_ui
 ---
 [Twitter Desktop Site On iPad](http://mobile.twitter.com/settings/change_ui)
 

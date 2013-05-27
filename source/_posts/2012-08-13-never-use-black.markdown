@@ -5,6 +5,7 @@ tags:
 - Design
 - Tip
 - Article
+external-url: http://ianstormtaylor.com/design-tip-never-use-black/
 alias: /post/29334655397/never-use-black
 ---
 [Never Use Black](http://ianstormtaylor.com/design-tip-never-use-black/)

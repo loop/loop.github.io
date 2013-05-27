@@ -10,7 +10,7 @@ article {
     h1 {
       margin: 0;
       a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+        &:hover { color: #fe210e !important; text-decoration: none;} }
     }
     p {
       font-size: .9em;
@@ -92,7 +92,7 @@ article + article {
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     a { color: inherit; &:hover { color: $link-color-hover; } }
   }
   a[rel=full-article] {

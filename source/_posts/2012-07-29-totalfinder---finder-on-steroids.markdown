@@ -5,6 +5,7 @@ tags:
 - Apple
 - TotalFinder
 alias: /post/28264020710/totalfinder-finder-on-steroids
+external-url: http://totalfinder.binaryage.com
 ---
 [TotalFinder - Finder On Steroids](http://totalfinder.binaryage.com)
 
