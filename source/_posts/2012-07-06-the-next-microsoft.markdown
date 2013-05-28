@@ -9,8 +9,6 @@ tags:
 alias: /post/26629306483/the-next-microsoft
 external-url: http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html
 ---
-[The Next Microsoft](http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html)
-
 Andrew Kim, a design student, has completely [rebranded Microsoft](http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html) on his own, his rebranding of it is amazing, it is miles better than their new Windows logo and much better than any rebranding they have done before.
 
 The concept of 'promising a future' is brilliant, this is what technology should be doing and this is why it works.

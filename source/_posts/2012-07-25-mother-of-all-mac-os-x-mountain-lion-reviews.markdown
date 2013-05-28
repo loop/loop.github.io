@@ -9,7 +9,5 @@ tags:
 alias: /post/27984139628/mother-of-all-mac-os-x-mountain-lion-reviews
 external-url: http://davidchartier.com/mac-os-x-mountain-lion-review-roundup
 ---
-[Mother Of All Mac OS X Mountain Lion Reviews](http://davidchartier.com/mac-os-x-mountain-lion-review-roundup)
-
 Mac OS X Mountain Lion was released today and as always there are some big reviews out. This link holds links of the best reviews and my personal favourite from John Siracusa which is over 26,000 words (the usual).
 

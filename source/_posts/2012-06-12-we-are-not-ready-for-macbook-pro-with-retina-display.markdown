@@ -9,8 +9,6 @@ tags:
 alias: /post/24976243020/we-are-not-ready-for-macbook-pro-with-retina-display
 external-url: http://www.wired.com/gadgetlab/2012/06/macbook-pro-with-retina-display-gives-apple-a-1-year-lead-on-ultrabooks/
 ---
-[We are not ready for MacBook Pro with Retina Display](http://www.wired.com/gadgetlab/2012/06/macbook-pro-with-retina-display-gives-apple-a-1-year-lead-on-ultrabooks/)
-
 Yesterday at WWDC Apple announced the "the most _amazing_ computer we have ever made" the [MacBook Pro with Retina Display](http://www.apple.com/macbook-pro/features/).
 
 > Apple’s next-generation MacBook Pro is about as thin as a MacBook Air, as fast as high-end desktop computers, and features the highest-resolution notebook screen ever made. And, according to industry analysts, the new notebook pushes Apple at least a year ahead of the best competing ultrabooks and high-end PC notebooks.

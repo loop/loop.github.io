@@ -15,8 +15,6 @@ tags:
 alias: /post/25032692230/apple-iphone-prediction-in-2007
 external-url: http://www.bloomberg.com/apps/news?pid=newsarchive&sid=aRelVKWbMAv0
 ---
-[Apple iPhone Prediction in 2007](http://www.bloomberg.com/apps/news?pid=newsarchive&sid=aRelVKWbMAv0)
-
 [This](http://www.bloomberg.com/apps/news?pid=newsarchive&sid=aRelVKWbMAv0) article has been sitting on my Instapaper for nearly 2 months now, I just got a chance to read it and was amazed at it.
 
 To give you a quick insight on the article:
