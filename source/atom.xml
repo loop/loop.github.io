@@ -18,7 +18,7 @@ layout: nil
   {% for post in site.posts limit: 20 %}
   <entry>
     {% if post.external-url %}
-    <title type="html"><![CDATA[{{ post.title | cdata_escape }} GLYPH GOES HERE]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+    <title type="html"><![CDATA[{{ post.title | cdata_escape }} &#8734;]]></title>
     <link href="{{ post.external-url }}"/>
     {% else %}
     <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
@@ -27,7 +27,7 @@ layout: nil
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ post.id }}</id>
     {% if post.external-url %}
-    <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}<a rel="full-article" href="{{ site.url }}{{ post.url }}">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+    <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}<a rel="full-article" href="{{ site.url }}{{ post.url }}">Permalink</a>]]></content>&#8734;
     {% else %}
     <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content>
     {% endif%}
