@@ -4,7 +4,7 @@
   <title><![CDATA[Category: RSS Reader | Finite Post]]></title>
   <link href="http://finitepost.com/categories/rss-reader/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-05-29T13:32:24+01:00</updated>
+  <updated>2013-05-29T13:41:01+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -27,7 +27,7 @@
 <p>I couldn&rsquo;t install this on my server due to some constraints so I decided to look at <a href="https://www.heroku.com/">Heroku</a>. I came across a script called <a href="https://github.com/projectdelphai/ttrss-on-heroku">ttrss-on-heroku</a> and he was trying to do the exact same thing as me. I used the script and got TTRSS set up with in 5 minutes and have been using it for the past 3 weeks and it has been working perfectly. The feeds get updated every 5 minutes and the cost of this set up on Heroku is 0. I recommend you read up on how exactly this works from the script developers post <a href="http://projectdelphai.github.io/blog/2013/03/23/tt-rss-on-heroku-part-2/">here</a>.</p>
 
 <p>I&rsquo;ve installed <a href="https://play.google.com/store/apps/details?id=org.ttrssreader">TTRSS-Reader</a> on my Android, while it isn&rsquo;t pretty to look at, it does the job.
-If you have an iOS device, you might want to install Reeder<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> as you can use that with TTRSS. All you need to do is install the <a href="http://tt-rss.org/forum/viewtopic.php?f=22&amp;t=1981">plug-in</a>.</p>
+If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, you can use that with TTRSS. All you need to do is install the <a href="http://tt-rss.org/forum/viewtopic.php?f=22&amp;t=1981">plug-in</a>.</p>
 
 <p>To have that Google Reader elements, I installed the following plug ins:</p>
 
