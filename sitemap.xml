@@ -382,4 +382,8 @@
         <loc>http://finitepost.com/robots.txt</loc>
         <lastmod>2013-05-27T16:27:49+01:00</lastmod>
     </url>
+    <url>
+        <loc>http://finitepost.com/rss.xml</loc>
+        <lastmod>2013-06-01T15:51:24+01:00</lastmod>
+    </url>
 </urlset>

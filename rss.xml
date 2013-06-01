@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/>
+    <title>Finite Post</title>
+    <generator>Octopress</generator>
+    <link>http://finitepost.com</link>
 
-  <title><![CDATA[Finite Post]]></title>
-  <link href="http://finitepost.com/atom.xml" rel="self"/>
-  <link href="http://finitepost.com/"/>
-  <updated>2013-06-01T15:51:29+01:00</updated>
-  <id>http://finitepost.com/</id>
-  <author>
-    <name><![CDATA[loop]]></name>
     
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Open Source Alternative to Google Reader]]></title>
-    <link href="http://finitepost.com/2013/05/29/open-source-alternative-to-google-reader/"/>
-    
-    <updated>2013-05-29T13:09:00+01:00</updated>
-    <id>http://finitepost.com/2013/05/29/open-source-alternative-to-google-reader</id>
-    
-    <content type="html"><![CDATA[<p>As you may know <a href="http://www.google.com/reader">Google Reader</a> will be shutting down on <a href="http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html">1st July</a> and I&rsquo;ve spent quite some time looking at alternatives to replace it. I&rsquo;ve been using Google Reader since 2009, I&rsquo;ve read over 100,000 (from the web app) items and starred/shared over 2000 of them. I had a nice little setup going.</p>
+    <item>
+      <title>Open Source Alternative to Google Reader</title>
+      <description><p>As you may know <a href="http://www.google.com/reader">Google Reader</a> will be shutting down on <a href="http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html">1st July</a> and I&rsquo;ve spent quite some time looking at alternatives to replace it. I&rsquo;ve been using Google Reader since 2009, I&rsquo;ve read over 100,000 (from the web app) items and starred/shared over 2000 of them. I had a nice little setup going.</p>
 
 <p>Google Reader was amazing, it had some amazing third-party apps like <a href="http://reederapp.com/">Reeder</a>, it had a full array of features (the most important one was speed!) which made it the best RSS Reader out there. I used and abandoned a few alternatives, these ranged from using <a href="http://blog.capwatkins.com/switching-from-rss-to-twitter">Twitter as a replacementt</a>, <a href="http://www.feedly.com/">Feedly</a>, <a href="http://theoldreader.com/">The Old Reader</a> and <a href="http://www.newsblur.com/">NewsBlur</a>. All these alternatives had pitfalls. Twitter was annoying because it required switching between my accounts and it was very annoying to use. Another thing that I had set up was any starred articles I did on Google Reader, they would automatically get bookmarked into <a href="http://pinboard.in">Pinboard</a> using <a href="https://ifttt.com">ifttt</a>, it used to be possible but it was <a href="http://thenextweb.com/apps/2012/09/20/ifttt-removes-twitter-triggers-comply-new-api-policies/">removed</a> due to Twitters API changes. The rest of the services I tried were either slow, provided too many features for me to care about or didn&rsquo;t have an API or apps.</p>
 
@@ -56,47 +44,35 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 </ol>
 </div>
 
-]]></content>
+</description>
+      <link>http://finitepost.com/2013/05/29/open-source-alternative-to-google-reader/</link>
+      <pubDate>2013-05-29T13:09:00+01:00</pubDate>
+      <guid>http://finitepost.com/2013/05/29/open-source-alternative-to-google-reader</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Migrating from Tumblr to Octopress]]></title>
-    <link href="http://finitepost.com/2013/05/24/migrating-from-tumblr-to-octopress/"/>
-    
-    <updated>2013-05-24T14:47:00+01:00</updated>
-    <id>http://finitepost.com/2013/05/24/migrating-from-tumblr-to-octopress</id>
-    
-    <content type="html"><![CDATA[<p>I&rsquo;ve decided to make a move from Tumblr to static blogging using Octpress, which is hosted on GitHub pages. This gives me the oppurtunity to learn more about Ruby and git. So far I&rsquo;ve managed to sucessfully install Octopress after coming across a load of errors. It took me about four times to have it deployed correctly.</p>
+    <item>
+      <title>Migrating from Tumblr to Octopress</title>
+      <description><p>I&rsquo;ve decided to make a move from Tumblr to static blogging using Octpress, which is hosted on GitHub pages. This gives me the oppurtunity to learn more about Ruby and git. So far I&rsquo;ve managed to sucessfully install Octopress after coming across a load of errors. It took me about four times to have it deployed correctly.</p>
 
 <p>I will fully document about the process after I sucuessfully import my Tumblr posts to here. The importing is where the headache begins.</p>
-]]></content>
+</description>
+      <link>http://finitepost.com/2013/05/24/migrating-from-tumblr-to-octopress/</link>
+      <pubDate>2013-05-24T14:47:00+01:00</pubDate>
+      <guid>http://finitepost.com/2013/05/24/migrating-from-tumblr-to-octopress</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
+    <item>
+      <title>Hello World</title>
+      <description><p>Hello, world! This is a first post from Octopress.</p>
+</description>
+      <link>http://finitepost.com/2013/05/24/hello-world/</link>
+      <pubDate>2013-05-24T12:49:00+01:00</pubDate>
+      <guid>http://finitepost.com/2013/05/24/hello-world</guid>
+    </item>
     
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://finitepost.com/2013/05/24/hello-world/"/>
-    
-    <updated>2013-05-24T12:49:00+01:00</updated>
-    <id>http://finitepost.com/2013/05/24/hello-world</id>
-    
-    <content type="html"><![CDATA[<p>Hello, world! This is a first post from Octopress.</p>
-]]></content>
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[My Journey With iOS And Android]]></title>
-    <link href="http://finitepost.com/2012/09/06/my-journey-with-ios-and-android/"/>
-    
-    <updated>2012-09-06T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/09/06/my-journey-with-ios-and-android</id>
-    
-    <content type="html"><![CDATA[<blockquote><p>Learning never exhausts the mind. &ndash; <em>Leonardo da Vinci</em></p></blockquote>
+    <item>
+      <title>My Journey With iOS And Android</title>
+      <description><blockquote><p>Learning never exhausts the mind. &ndash; <em>Leonardo da Vinci</em></p></blockquote>
 
 <p>A couple of months ago I my initial plan was to start learning about iOS and Android development, after a couple of weeks trying to learn the basics on Cocoa and Objective-C. I downloaded the <a href="http://itunes.apple.com/us/itunes-u/ipad-iphone-application-development/id473757255">Stanford iOS Development</a> videos from iTunes U. But before I decided to watch the videos, I thought it would be best if I read up on the concepts on Objective-C so read this basic overview of it from <a href="http://cocoadevcentral.com/d/learn_objectivec/">Cocoa Dev Central</a>. I got up to Lecture 4 and even managed to complete the first assignment.</p>
 
@@ -109,19 +85,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p>If anyone is looking into learning Android I highly recommend this combination.</p>
 
 <p>My future plan is to keep on with Android and maybe look back into iOS after a year or two.</p>
-]]></content>
+</description>
+      <link>http://finitepost.com/2012/09/06/my-journey-with-ios-and-android/</link>
+      <pubDate>2012-09-06T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/09/06/my-journey-with-ios-and-android</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Dear Google, Please Force Developers To Follow Android Design Guidelines]]></title>
-    <link href="http://finitepost.com/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines/"/>
-    
-    <updated>2012-08-22T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines</id>
-    
-    <content type="html"><![CDATA[<p>There have been lots of <a href="http://www.techrepublic.com/blog/smartphones/androids-apps-are-comparatively-ugly-is-linux-to-blame/3601">blog</a><a href="http://www.wired.com/gadgetlab/2012/04/easier-design-apps-ios/">posts</a>, <a href="http://news.yahoo.com/why-android-apps-ugly-164400290.html">articles</a> in the news and <a href="http://www.talkandroid.com/android-forums/android-chat/4483-why-general-ui-most-android-apps-ugly.html">discussions</a> on why apps look <strong>so</strong> much better on iOS than they do on Android. The problem with these articles is that they go straight to the software and blame it, they simply say &ldquo;because iOS is better&rdquo;, I believe this is not the case. Android is not the problem, Android developers are the cause, they think just because it is easy to publish on the Play Store and make money they don&rsquo;t have to care about how their apps look. They simply throw on some shitty design they do in about an hour or two and say that&rsquo;s fine, let&rsquo;s make my self rich.</p>
+    <item>
+      <title>Dear Google, Please Force Developers To Follow Android Design Guidelines</title>
+      <description><p>There have been lots of <a href="http://www.techrepublic.com/blog/smartphones/androids-apps-are-comparatively-ugly-is-linux-to-blame/3601">blog</a><a href="http://www.wired.com/gadgetlab/2012/04/easier-design-apps-ios/">posts</a>, <a href="http://news.yahoo.com/why-android-apps-ugly-164400290.html">articles</a> in the news and <a href="http://www.talkandroid.com/android-forums/android-chat/4483-why-general-ui-most-android-apps-ugly.html">discussions</a> on why apps look <strong>so</strong> much better on iOS than they do on Android. The problem with these articles is that they go straight to the software and blame it, they simply say &ldquo;because iOS is better&rdquo;, I believe this is not the case. Android is not the problem, Android developers are the cause, they think just because it is easy to publish on the Play Store and make money they don&rsquo;t have to care about how their apps look. They simply throw on some shitty design they do in about an hour or two and say that&rsquo;s fine, let&rsquo;s make my self rich.</p>
 
 <p>There are many apps which look amazing, and the commonality between these apps is that they follow the <a href="http://developer.android.com/design/index.html">Android Design Guidelines</a>. Below are screenshots[1] just some of my favourite good designed apps from Android (TED, Foursquare and FlightTrack) :</p>
 
@@ -151,19 +123,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <li> This was designed by <a href="http://www.theverge.com/users/snalty">snalty</a> and posted on <a href="http://www.theverge.com/2012/7/23/3179989/holo-instagram">The Verge forums</a> showing how it would have looked like if they followed the Android design principles.</li>
 </ol>
 
-]]></content>
+</description>
+      <link>http://finitepost.com/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines/</link>
+      <pubDate>2012-08-22T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Transport for London storing passwords in plaintext]]></title>
-    <link href="http://finitepost.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext/"/>
-    
-    <updated>2012-08-20T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext</id>
-    
-    <content type="html"><![CDATA[<p>Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my <a href="https://photocard.tfl.gov.uk">Photocard</a> login from Transport for London, I couldn&rsquo;t remember what this account was for so I decided to login, weirdly it said my password was incorrect, but this would have been impossible for me (unless I got hacked) because I use 1Password to generate random passwords and always store them in the app. Thinking I might have made a mistake when I saved it, I decided to do the good old &ldquo;Forgot your password&rdquo; procedure, entered my email and everything, and then I got the email.</p>
+    <item>
+      <title>Transport for London storing passwords in plaintext</title>
+      <description><p>Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my <a href="https://photocard.tfl.gov.uk">Photocard</a> login from Transport for London, I couldn&rsquo;t remember what this account was for so I decided to login, weirdly it said my password was incorrect, but this would have been impossible for me (unless I got hacked) because I use 1Password to generate random passwords and always store them in the app. Thinking I might have made a mistake when I saved it, I decided to do the good old &ldquo;Forgot your password&rdquo; procedure, entered my email and everything, and then I got the email.</p>
 
 <p>When I got the email, I was amazed to see that it wasn&rsquo;t a link to reset my password but an actually password, I then decided to compare the password in the email and the password I saved in 1Password and then I was shocked to see that they actually emailed me my password.</p>
 
@@ -186,135 +154,99 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p>Also TfL has multiple &ldquo;minisites&rdquo; which require a login, and I&rsquo;m not 100% if this is the care for all of them or just this one. But, even if it is this one it is still a shambles because it contains my personal details.</p>
 
 <p>NOTE: I&rsquo;m not 100% sure that they are storing it in plaintext but the way the are sending me my password and somehow managed to update my passwords shows hints they might be and their security practices sucks.</p>
-]]></content>
+</description>
+      <link>http://finitepost.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext/</link>
+      <pubDate>2012-08-20T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Never Use Black &#8734;]]></title>
-    <link href="http://ianstormtaylor.com/design-tip-never-use-black/"/>
-    
-    <updated>2012-08-13T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/08/13/never-use-black</id>
-    
-    <content type="html"><![CDATA[<blockquote><p>When you put pure black next to a set of meticulously picked colors, the black overpowers everything else. It stands out because it’s not natural.</p></blockquote>
+    <item>
+      <title>Never Use Black</title>
+      <description><blockquote><p>When you put pure black next to a set of meticulously picked colors, the black overpowers everything else. It stands out because it’s not natural.</p></blockquote>
 
 <p>I guess I have some changes to do on this blog. A very interesting article on why we should not use black when designing.</p>
-<a rel="full-article" href="http://finitepost.com/2012/08/13/never-use-black/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/08/13/never-use-black/</link>
+      <pubDate>2012-08-13T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/08/13/never-use-black</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Everything About App.net &#8734;]]></title>
-    <link href="http://www.orianmarx.com/2012/08/13/how-app-net-can-change-everything/"/>
-    
-    <updated>2012-08-13T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/08/13/everything-about-appnet</id>
-    
-    <content type="html"><![CDATA[<p>I didn&rsquo;t really take much notice of this App.net platform that Dalton Cladwell aims to <a href="http://daltoncaldwell.com/an-audacious-proposal">build</a>,  even though there are numerous amount of tweets on my timeline every other day and just yesterday the project got fully funded at $500k.</p>
+    <item>
+      <title>Everything About App.net</title>
+      <description><p>I didn&rsquo;t really take much notice of this App.net platform that Dalton Cladwell aims to <a href="http://daltoncaldwell.com/an-audacious-proposal">build</a>,  even though there are numerous amount of tweets on my timeline every other day and just yesterday the project got fully funded at $500k.</p>
 
 <p>This article titled &ldquo;How App.net Can Change Everything&rdquo; by <a href="http://www.twitter.com/Orian">Orian Marx</a> really explains everything and is well worth a read. It isn&rsquo;t just his opinions but information from many different sources as well.</p>
-<a rel="full-article" href="http://finitepost.com/2012/08/13/everything-about-appnet/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/08/13/everything-about-appnet/</link>
+      <pubDate>2012-08-13T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/08/13/everything-about-appnet</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Outlook.com &#8734;]]></title>
-    <link href="http://blogs.office.com/b/microsoft-outlook/archive/2012/07/31/introducing-outlook-com-modern-email-for-the-next-billion-mailboxes.aspx"/>
-    
-    <updated>2012-07-31T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/31/outlookcom</id>
-    
-    <content type="html"><![CDATA[<p>After 15 years Microsoft have &ldquo;fixed&rdquo; Hotmail, or should I say Outlook. It is so much simpler and clean. Even my parents aren&rsquo;t confused with it anymore! Design team at Microsoft are doing their job right!</p>
+    <item>
+      <title>Outlook.com</title>
+      <description><p>After 15 years Microsoft have &ldquo;fixed&rdquo; Hotmail, or should I say Outlook. It is so much simpler and clean. Even my parents aren&rsquo;t confused with it anymore! Design team at Microsoft are doing their job right!</p>
 
 <p>The one thing which I have found that sucks (security wise) is that apparently with Outlook, your password is limited to only 16 characters long, previously I was able to login fine with my 16+ character password!</p>
 
 <p>Why the sudden change?</p>
 
 <p><img src="http://static.tumblr.com/lf2jfef/7Qimaacck/1.png" alt="Outlook Password Limit" /></p>
-<a rel="full-article" href="http://finitepost.com/2012/07/31/outlookcom/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/07/31/outlookcom/</link>
+      <pubDate>2012-07-31T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/31/outlookcom</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
+    <item>
+      <title>Rethink Digg v1</title>
+      <description><p>As much as the new design looks good, it is still going to fail; bringing back the old community will be near impossible no matter what they do and with the likes of Reddit and Hacker News it will be even more difficult for growth. At least it will be fun to watch the &ldquo;(re)making&rdquo; of it.</p>
+</description>
+      <link>http://finitepost.com/2012/07/30/rethink-digg-v1/</link>
+      <pubDate>2012-07-30T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/30/rethink-digg-v1</guid>
+    </item>
     
-    <title type="html"><![CDATA[Rethink Digg v1 &#8734;]]></title>
-    <link href="http://rethinkdigg.com/post/28338474438/v1-preview"/>
-    
-    <updated>2012-07-30T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/30/rethink-digg-v1</id>
-    
-    <content type="html"><![CDATA[<p>As much as the new design looks good, it is still going to fail; bringing back the old community will be near impossible no matter what they do and with the likes of Reddit and Hacker News it will be even more difficult for growth. At least it will be fun to watch the &ldquo;(re)making&rdquo; of it.</p>
-<a rel="full-article" href="http://finitepost.com/2012/07/30/rethink-digg-v1/">Permalink</a>]]></content>&#8734;
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[TotalFinder - Finder On Steroids &#8734;]]></title>
-    <link href="http://totalfinder.binaryage.com"/>
-    
-    <updated>2012-07-29T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/29/totalfinder&#8212;finder-on-steroids</id>
-    
-    <content type="html"><![CDATA[<p>As much as I love Finder I just find navigating multiple windows of Finder really cumbersome. I found TotalFinder which is pretty sweet, it isn&rsquo;t an additional app, it extends Finder. It basically turns Finder into The Hulk and CPU usage is same as Finder which is a big plus. There are many alternative Finders but this one is the best one out there and for a lovely price!</p>
+    <item>
+      <title>TotalFinder - Finder On Steroids</title>
+      <description><p>As much as I love Finder I just find navigating multiple windows of Finder really cumbersome. I found TotalFinder which is pretty sweet, it isn&rsquo;t an additional app, it extends Finder. It basically turns Finder into The Hulk and CPU usage is same as Finder which is a big plus. There are many alternative Finders but this one is the best one out there and for a lovely price!</p>
 
 <p><img src="http://static.tumblr.com/lf2jfef/zdmmaacdj/2.png" alt="" /></p>
-<a rel="full-article" href="http://finitepost.com/2012/07/29/totalfinder---finder-on-steroids/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/07/29/totalfinder&#8212;finder-on-steroids/</link>
+      <pubDate>2012-07-29T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/29/totalfinder&#8212;finder-on-steroids</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
+    <item>
+      <title>iOS Prototypes</title>
+      <description><p>Apple iOS products that were never destined to see day light. Only chance we will ever get to see Apple prototypes.</p>
+</description>
+      <link>http://finitepost.com/2012/07/27/ios-prototypes/</link>
+      <pubDate>2012-07-27T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/27/ios-prototypes</guid>
+    </item>
     
-    <title type="html"><![CDATA[iOS Prototypes &#8734;]]></title>
-    <link href="http://www.theverge.com/2012/7/26/3190849/court-documents-reveal-multiple-ipad-iphone-prototypes-kickstand"/>
+    <item>
+      <title>Mother Of All Mac OS X Mountain Lion Reviews</title>
+      <description><p>Mac OS X Mountain Lion was released today and as always there are some big reviews out. This link holds links of the best reviews and my personal favourite from John Siracusa which is over 26,000 words (the usual).</p>
+</description>
+      <link>http://finitepost.com/2012/07/25/mother-of-all-mac-os-x-mountain-lion-reviews/</link>
+      <pubDate>2012-07-25T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/25/mother-of-all-mac-os-x-mountain-lion-reviews</guid>
+    </item>
     
-    <updated>2012-07-27T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/27/ios-prototypes</id>
+    <item>
+      <title>Sun - simple iOS weather app</title>
+      <description><p>This is a very simple but good looking weather app. Installation isn&rsquo;t via the App Store, it is done by adding it to your home screen but it acts like a native app. Another app showing that simplicity can add beauty. Kudos to <a href="https://twitter.com/jalifax">Jakob Henner</a>.</p>
+</description>
+      <link>http://finitepost.com/2012/07/22/sun&#8212;simple-ios-weather-app/</link>
+      <pubDate>2012-07-22T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/22/sun&#8212;simple-ios-weather-app</guid>
+    </item>
     
-    <content type="html"><![CDATA[<p>Apple iOS products that were never destined to see day light. Only chance we will ever get to see Apple prototypes.</p>
-<a rel="full-article" href="http://finitepost.com/2012/07/27/ios-prototypes/">Permalink</a>]]></content>&#8734;
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Mother Of All Mac OS X Mountain Lion Reviews &#8734;]]></title>
-    <link href="http://davidchartier.com/mac-os-x-mountain-lion-review-roundup"/>
-    
-    <updated>2012-07-25T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/25/mother-of-all-mac-os-x-mountain-lion-reviews</id>
-    
-    <content type="html"><![CDATA[<p>Mac OS X Mountain Lion was released today and as always there are some big reviews out. This link holds links of the best reviews and my personal favourite from John Siracusa which is over 26,000 words (the usual).</p>
-<a rel="full-article" href="http://finitepost.com/2012/07/25/mother-of-all-mac-os-x-mountain-lion-reviews/">Permalink</a>]]></content>&#8734;
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Sun - simple iOS weather app &#8734;]]></title>
-    <link href="http://pattern.dk/sun/"/>
-    
-    <updated>2012-07-22T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/22/sun&#8212;simple-ios-weather-app</id>
-    
-    <content type="html"><![CDATA[<p>This is a very simple but good looking weather app. Installation isn&rsquo;t via the App Store, it is done by adding it to your home screen but it acts like a native app. Another app showing that simplicity can add beauty. Kudos to <a href="https://twitter.com/jalifax">Jakob Henner</a>.</p>
-<a rel="full-article" href="http://finitepost.com/2012/07/22/sun---simple-ios-weather-app/">Permalink</a>]]></content>&#8734;
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Sparrow Flies To Google and Acrylic Software Paints With Facebook]]></title>
-    <link href="http://finitepost.com/2012/07/21/sparrow-flies-to-google-and-acrylic-software-paints-with-facebook/"/>
-    
-    <updated>2012-07-21T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/21/sparrow-flies-to-google-and-acrylic-software-paints-with-facebook</id>
-    
-    <content type="html"><![CDATA[<p>Yesterday 2 amazing teams were hired by the big boys. <a href="http://sparrowmailapp.com/">Sparrow</a> was acquired by Google for under <a href="http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client/in/2936538">$25 Million</a>. Sparrow is the best mail client out there, it is so simple and just works. It is such a shame that the development of Sparrow will cease and no new features will be added to their mail clients. Hopefully the team and Google can work together to bring a more awesome mail client.</p>
+    <item>
+      <title>Sparrow Flies To Google and Acrylic Software Paints With Facebook</title>
+      <description><p>Yesterday 2 amazing teams were hired by the big boys. <a href="http://sparrowmailapp.com/">Sparrow</a> was acquired by Google for under <a href="http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client/in/2936538">$25 Million</a>. Sparrow is the best mail client out there, it is so simple and just works. It is such a shame that the development of Sparrow will cease and no new features will be added to their mail clients. Hopefully the team and Google can work together to bring a more awesome mail client.</p>
 
 <blockquote><p>We will continue to make available our existing products, and we will provide support and critical updates to our users. However, as we’ll be busy with new projects at Google, we do not plan to release new features for the Sparrow apps.</p></blockquote>
 
@@ -327,19 +259,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <blockquote><p>[…] there are no plans for further development on them.</p></blockquote>
 
 <p>Many of my favourite app developers and teams are getting swallowed by these big dogs, as much as I love Google and Facebook I hope they will put the teams in good use and release good apps.</p>
-]]></content>
+</description>
+      <link>http://finitepost.com/2012/07/21/sparrow-flies-to-google-and-acrylic-software-paints-with-facebook/</link>
+      <pubDate>2012-07-21T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/21/sparrow-flies-to-google-and-acrylic-software-paints-with-facebook</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Neil Gaiman Commencement Speech]]></title>
-    <link href="http://finitepost.com/2012/07/09/neil-gaiman-commencement-speech/"/>
-    
-    <updated>2012-07-09T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/09/neil-gaiman-commencement-speech</id>
-    
-    <content type="html"><![CDATA[<p>This commencement speech by Neil Gaiman at <a href="http://www.uarts.edu/">UArts</a> (<em>every university website should be well designed as UArts website)</em> is probably the next best one after the Steve Jobs <a href="http://www.youtube.com/watch?v=D1R-jKKp3NA">one</a>. He is an amazing author and artist, he was responsible for one of the most amazing comic books <a href="http://en.wikipedia.org/wiki/The_Sandman_(Vertigo">The Sandman</a>) which is on par with Watchmen and The Dark Knight Returns.</p>
+    <item>
+      <title>Neil Gaiman Commencement Speech</title>
+      <description><p>This commencement speech by Neil Gaiman at <a href="http://www.uarts.edu/">UArts</a> (<em>every university website should be well designed as UArts website)</em> is probably the next best one after the Steve Jobs <a href="http://www.youtube.com/watch?v=D1R-jKKp3NA">one</a>. He is an amazing author and artist, he was responsible for one of the most amazing comic books <a href="http://en.wikipedia.org/wiki/The_Sandman_(Vertigo">The Sandman</a>) which is on par with Watchmen and The Dark Knight Returns.</p>
 
 <p>If you are an artist of any kind (I consider coding as art!) you need to watch this, it is truly inspiring.</p>
 
@@ -348,19 +276,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p>Make. Good. Art.</p></blockquote>
 
 <p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
-]]></content>
+</description>
+      <link>http://finitepost.com/2012/07/09/neil-gaiman-commencement-speech/</link>
+      <pubDate>2012-07-09T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/09/neil-gaiman-commencement-speech</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[The Next Microsoft &#8734;]]></title>
-    <link href="http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html"/>
-    
-    <updated>2012-07-06T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/07/06/the-next-microsoft</id>
-    
-    <content type="html"><![CDATA[<p>Andrew Kim, a design student, has completely <a href="http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html">rebranded Microsoft</a> on his own, his rebranding of it is amazing, it is miles better than their new Windows logo and much better than any rebranding they have done before.</p>
+    <item>
+      <title>The Next Microsoft</title>
+      <description><p>Andrew Kim, a design student, has completely <a href="http://www.minimallyminimal.com/journal/2012/7/3/the-next-microsoft.html">rebranded Microsoft</a> on his own, his rebranding of it is amazing, it is miles better than their new Windows logo and much better than any rebranding they have done before.</p>
 
 <p>The concept of &lsquo;promising a future&rsquo; is brilliant, this is what technology should be doing and this is why it works.</p>
 
@@ -369,19 +293,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p><img src="http://media.tumblr.com/tumblr_m6qtsgnt3v1qamsz8.jpg" alt="" /></p>
 
 <p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
-<a rel="full-article" href="http://finitepost.com/2012/07/06/the-next-microsoft/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/07/06/the-next-microsoft/</link>
+      <pubDate>2012-07-06T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/07/06/the-next-microsoft</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Microsoft are doing it right with Surface]]></title>
-    <link href="http://finitepost.com/2012/06/20/microsoft-are-doing-it-right-with-surface/"/>
-    
-    <updated>2012-06-20T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/06/20/microsoft-are-doing-it-right-with-surface</id>
-    
-    <content type="html"><![CDATA[<p>Microsoft announced their a tablet named Surface on Monday and I think it is wonderfully designed (this is how they should design all their products). The only let down of the announcement is the lack of specs information about the tablet, it was in a way an half-arsed announcement, they should have waited until everything was for certain.</p>
+    <item>
+      <title>Microsoft are doing it right with Surface</title>
+      <description><p>Microsoft announced their a tablet named Surface on Monday and I think it is wonderfully designed (this is how they should design all their products). The only let down of the announcement is the lack of specs information about the tablet, it was in a way an half-arsed announcement, they should have waited until everything was for certain.</p>
 
 <p>The major advantage at the moment that Microsoft has is the beautiful Touch Cover. This is truly going to change the we use tablets, I&rsquo;m not saying by any means that Microsoft will become dominant in the tablet market, I am saying that with a keyboard and Windows 8 you will be able to do more with the Surface than any other Tablet.</p>
 
@@ -400,19 +320,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p><strong>Images Source:</strong> Microsoft <a href="http://www.microsoft.com/surface">Surface Website</a></p>
 
 <p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
-]]></content>
+</description>
+      <link>http://finitepost.com/2012/06/20/microsoft-are-doing-it-right-with-surface/</link>
+      <pubDate>2012-06-20T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/06/20/microsoft-are-doing-it-right-with-surface</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Apple iPhone Prediction in 2007 &#8734;]]></title>
-    <link href="http://www.bloomberg.com/apps/news?pid=newsarchive&sid=aRelVKWbMAv0"/>
-    
-    <updated>2012-06-13T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/06/13/apple-iphone-prediction-in-2007</id>
-    
-    <content type="html"><![CDATA[<p><a href="http://www.bloomberg.com/apps/news?pid=newsarchive&amp;sid=aRelVKWbMAv0">This</a> article has been sitting on my Instapaper for nearly 2 months now, I just got a chance to read it and was amazed at it.</p>
+    <item>
+      <title>Apple iPhone Prediction in 2007</title>
+      <description><p><a href="http://www.bloomberg.com/apps/news?pid=newsarchive&amp;sid=aRelVKWbMAv0">This</a> article has been sitting on my Instapaper for nearly 2 months now, I just got a chance to read it and was amazed at it.</p>
 
 <p>To give you a quick insight on the article:</p>
 
@@ -437,19 +353,15 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p><strong>Source</strong>: Numbers are from <a href="http://investor.apple.com/sec.cfm">SEC Filings</a> on Apple&rsquo;s website and <a href="http://www.ritholtz.com/blog/2012/04/apple-by-the-numbers/">Apple by the Numbers</a> by Barry Ritholtz.</p>
 
 <p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
-<a rel="full-article" href="http://finitepost.com/2012/06/13/apple-iphone-prediction-in-2007/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/06/13/apple-iphone-prediction-in-2007/</link>
+      <pubDate>2012-06-13T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/06/13/apple-iphone-prediction-in-2007</guid>
+    </item>
     
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[We are not ready for MacBook Pro with Retina Display &#8734;]]></title>
-    <link href="http://www.wired.com/gadgetlab/2012/06/macbook-pro-with-retina-display-gives-apple-a-1-year-lead-on-ultrabooks/"/>
-    
-    <updated>2012-06-12T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/06/12/we-are-not-ready-for-macbook-pro-with-retina-display</id>
-    
-    <content type="html"><![CDATA[<p>Yesterday at WWDC Apple announced the &ldquo;the most <em>amazing</em> computer we have ever made&rdquo; the <a href="http://www.apple.com/macbook-pro/features/">MacBook Pro with Retina Display</a>.</p>
+    <item>
+      <title>We are not ready for MacBook Pro with Retina Display</title>
+      <description><p>Yesterday at WWDC Apple announced the &ldquo;the most <em>amazing</em> computer we have ever made&rdquo; the <a href="http://www.apple.com/macbook-pro/features/">MacBook Pro with Retina Display</a>.</p>
 
 <blockquote><p>Apple’s next-generation MacBook Pro is about as thin as a MacBook Air, as fast as high-end desktop computers, and features the highest-resolution notebook screen ever made. And, according to industry analysts, the new notebook pushes Apple at least a year ahead of the best competing ultrabooks and high-end PC notebooks.</p></blockquote>
 
@@ -460,8 +372,11 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p>Apple has brought this out way too soon, and we just aren&rsquo;t ready yet. Maybe in 2 years time (or even more)!</p>
 
 <p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
-<a rel="full-article" href="http://finitepost.com/2012/06/12/we-are-not-ready-for-macbook-pro-with-retina-display/">Permalink</a>]]></content>&#8734;
+</description>
+      <link>http://finitepost.com/2012/06/12/we-are-not-ready-for-macbook-pro-with-retina-display/</link>
+      <pubDate>2012-06-12T00:00:00+01:00</pubDate>
+      <guid>http://finitepost.com/2012/06/12/we-are-not-ready-for-macbook-pro-with-retina-display</guid>
+    </item>
     
-  </entry>
-  
-</feed>
+  </channel>
+</rss>
