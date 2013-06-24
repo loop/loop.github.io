@@ -10,6 +10,7 @@ categories:
 - Guide
 - Tumblr to Octopress
 published: true
+sharing: true
 ---
 The title says a "Quick Start Guide" but this more of a full guide to fully migrate your tumblr blog to Octopress.
 
