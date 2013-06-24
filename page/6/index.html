@@ -9,8 +9,7 @@
   <meta name="author" content="loop">
 
   
-  <meta name="description" content="Quick note: Before I start my blog posts on Windows 8 will be from the
-perspective of a new developer who is still learning and starting university, &hellip;">
+  <meta name="description" content="Made an array, and take the array and take it through method change. The method then takes each of the values and adds 5, after it does that then it &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -92,6 +91,79 @@ perspective of a new developer who is still learning and starting university, &h
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+      <h1 class="entry-title"><a href="/2011/09/26/arrays-in-methods/">Arrays in Methods</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-09-26T00:00:00+01:00" pubdate data-updated="true">Sep 26<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Made an array, and take the array and take it through method change. The method then takes each of the values and adds 5, after it does that then it goes back and sees what it has to do which is print it out using a <a href="http://codelog.org/2011/09/26/enhanced-for-loop.html">enhanced for loop</a>.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">class</span> <span class="nc">apples</span><span class="o">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>      <span class="kt">int</span> <span class="n">codelog</span><span class="o">[]={</span><span class="mi">3</span><span class="o">,</span><span class="mi">4</span><span class="o">,</span><span class="mi">5</span><span class="o">,</span><span class="mi">6</span><span class="o">,</span><span class="mi">7</span><span class="o">};</span>
+</span><span class='line'>      <span class="n">change</span><span class="o">(</span><span class="n">codelog</span><span class="o">);</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="nl">y:</span><span class="n">codelog</span><span class="o">)</span>
+</span><span class='line'>          <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">y</span><span class="o">);</span>
+</span><span class='line'>      <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">change</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">[]){</span>
+</span><span class='line'>      <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">counter</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span><span class="n">counter</span><span class="o">&lt;</span><span class="n">x</span><span class="o">.</span><span class="na">length</span><span class="o">;</span><span class="n">counter</span><span class="o">++)</span>
+</span><span class='line'>      <span class="n">x</span><span class="o">[</span><span class="n">counter</span><span class="o">]+=</span><span class="mi">5</span><span class="o">;</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -552,66 +624,6 @@ accounts</a>.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-  
-    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-      <h1 class="entry-title"><a href="/2011/09/09/for-loops/">For Loops</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-09T00:00:00+01:00" pubdate data-updated="true">Sep 9<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Need 3 conditions, start, middle, end and what what it should do after each
-increment.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">class</span> <span class="nc">apples</span><span class="o">{</span>
-</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-</span><span class='line'>      <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">counter</span><span class="o">=</span><span class="mi">6</span><span class="o">;</span><span class="n">counter</span><span class="o">&lt;=</span><span class="mi">21</span><span class="o">;</span><span class="n">counter</span><span class="o">++){</span>
-</span><span class='line'>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">counter</span><span class="o">);</span>
-</span><span class='line'>      <span class="o">}</span>
-</span><span class='line'>    <span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/7/">&larr; Older</a>
@@ -628,6 +640,10 @@ increment.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/">Quick Start Guide to Setting Up Octopress From Tumblr</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/05/29/open-source-alternative-to-google-reader/">Open Source Alternative to Google Reader</a>
       </li>
     
@@ -641,10 +657,6 @@ increment.</p>
     
       <li class="post">
         <a href="/2012/09/06/my-journey-with-ios-and-android/">My Journey With iOS And Android</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines/">Dear Google, Please Force Developers To Follow Android Design Guidelines</a>
       </li>
     
   </ul>

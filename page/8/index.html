@@ -9,8 +9,8 @@
   <meta name="author" content="loop">
 
   
-  <meta name="description" content="Firstly let me just say that the title maybe a little misleading, I haven&rsquo;t
-completely moved to the cloud yet, the majority of the things I do &hellip;">
+  <meta name="description" content="Follow these simple steps to install XAMPP on Ubuntu: Download XAMPP for Linux from here and copy the tar.gz to the desktop.
+Open up Terminal and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -92,6 +92,80 @@ completely moved to the cloud yet, the majority of the things I do &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+      <h1 class="entry-title"><a href="/2011/07/14/installing-xampp-on-ubuntu/">Installing XAMPP on Ubuntu</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-14T00:00:00+01:00" pubdate data-updated="true">Jul 14<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Follow these simple steps to install XAMPP on Ubuntu:</p>
+
+<ul>
+<li>Download XAMPP for Linux from <a href="http://www.apachefriends.org/en/xampp-linux.html">here</a> and copy the tar.gz to the desktop.</li>
+<li>Open up Terminal and type:</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd Desktop
+</span><span class='line'>sudo -s
+</span><span class='line'>tar xvfz xampp-linux-1.7.4.tar.gz -C /opt</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Now when you try to copy anything to /opt/lampp/htdocs you will get permission denied. To fix this problem run this in Terminal:
+<code>chown username -R /opt/lampp/htdocs</code></li>
+</ul>
+
+
+<p>XAMPP is now installed! There is no GUI to start, stop and refresh XAMPP so to
+start it type this in Terminal:</p>
+
+<p><code>/opt/lampp/lampp start</code></p>
+
+<p>To stop it&rsquo;s:</p>
+
+<p><code>/opt/lampp/lampp start</code></p>
+
+<p>For more parameters go <a href="http://www.apachefriends.org/en/xampp-%0Alinux.html#382">here</a>.</p>
+
+<p>Also to create password for FTP, MySQL etc run this in terminal and follow the
+on screen instructions:</p>
+
+<p><code>sudo /opt/lampp/lampp security</code></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -546,49 +620,6 @@ custom URL to that one.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-  
-    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-      <h1 class="entry-title"><a href="/2011/07/07/cydia-icon-not-appearing-using-jailbreakme-30/">Cydia Icon Not Appearing Using JailbreakMe 3.0</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-07-07T00:00:00+01:00" pubdate data-updated="true">Jul 7<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&rsquo;ve been waiting for a easy jailbreak application to come and it has and it
-is <a href="http://jailbreakme.com">JailbreakMe 3.0</a>, I upgraded my iPhone 3GS to
-4.3.3, upgrade went fine then I went to jailbreakme.com, the Cydia seems to
-have downloaded fine but the icon was no where to be found, in the end I had
-to do a quick restore, then go to jailbreakme.com, then it jailbroke perfectly
-fine. So if you get this error restore the iPhone and then jailbreak.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/9/">&larr; Older</a>
@@ -605,6 +636,10 @@ fine. So if you get this error restore the iPhone and then jailbreak.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/">Quick Start Guide to Setting Up Octopress From Tumblr</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/05/29/open-source-alternative-to-google-reader/">Open Source Alternative to Google Reader</a>
       </li>
     
@@ -618,10 +653,6 @@ fine. So if you get this error restore the iPhone and then jailbreak.</p>
     
       <li class="post">
         <a href="/2012/09/06/my-journey-with-ios-and-android/">My Journey With iOS And Android</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines/">Dear Google, Please Force Developers To Follow Android Design Guidelines</a>
       </li>
     
   </ul>

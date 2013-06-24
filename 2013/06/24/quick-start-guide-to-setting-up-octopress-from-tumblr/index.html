@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Quick Start Guide to Setting Up Octopress From Tumblr - Finite Post</title>
+  <meta name="author" content="loop">
+
+  
+  <meta name="description" content="The title says a &ldquo;Quick Start Guide&rdquo; but this more of a full guide to fully migrate your tumblr blog to Octopress. I&rsquo;ve used Tumblr &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://finitepost.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Finite Post" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8387189-19']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+<script type="text/javascript">
+  var GoSquared = {};
+  GoSquared.acct = "GSN-893057-A";
+  (function(w){
+    function gs(){
+      w._gstc_lt = +new Date;
+      var d = document, g = d.createElement("script");
+      g.type = "text/javascript";
+      g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+      var s = d.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(g, s);
+    }
+    w.addEventListener ?
+      w.addEventListener("load", gs, false) :
+      w.attachEvent("onload", gs);
+  })(window);
+</script>
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><a href="/"><img class="center" src="/images/finite-140.png"></a>
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:finitepost.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="/colophon">Colophon</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+  
+    
+      <h1 class="entry-title">Quick Start Guide to Setting Up Octopress From Tumblr</h1>
+    
+  
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-24T13:09:00+01:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The title says a &ldquo;Quick Start Guide&rdquo; but this more of a full guide to fully migrate your tumblr blog to Octopress.</p>
+
+<p>I&rsquo;ve used Tumblr for the past 2 years as it was easy to set up and publish any content I wish to. It was easy to customise and best of all I didn&rsquo;t have to worry about the hosting solution but seeing as most of my posts are about code and development I decided to give <a href="http://octopress.org/">Octopress</a> a try. This also gives me a chance to learn a bit of Ruby.</p>
+
+<p>Migrating to Octopress was really easy with the <a href="https://github.com/jekyll/jekyll-import">jekyll-import</a> gem. Even though the gem was fully provided, there was still some problems that came up. Here are the steps to make the migration go much more quickly. But before you start you should make sure you have installed Python and pip (this is a tool for easily installing and managing Python packages), here a <a href="http://docs.python-guide.org/en/latest/starting/install/osx.html">guide</a> I used for Mountain Lion.</p>
+
+<ol>
+<li>Setup Octopress following the <a href="http://octopress.org/docs/setup/">docs from Octopress</a>. This is relatively simple and shouldn&rsquo;t take too long.</li>
+<li>Now this is the main part of the migration. Download the migration gem by running <code>gem install jekyll-import --pre</code></li>
+<li>You also need to install json gem and Python&rsquo;s html2text package by running <code>gem install json</code> and <code>pip install html2text</code>. The html2text package is needed for the Tumblr HTML posts to be converted to Markdown which is the content writing language for Octopress.
+For some reason the html2text installation kept going wrong for me and kept throwing <code>failed with error code 1</code>
+It turned out that I didn&rsquo;t have permission to install it. To fix this problem simply run <code>sudo pip install html2text</code>. Now if you try to run <code>which html2text</code> you should see the a path to the executable. If not, reinstall Python, html2text and check that you have updated your PYTHON_PATH env variable to pick up the html2text.</li>
+<li>Download my modified <a href="https://gist.github.com/loop/5850220#file-tumblr-rb">tumblr.rb</a> script. Octopress uses .markdown extensions, the script needs to be modified a bit and also trunicates titles if they are over a 255 characters long. Place this file into <code>/usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
+<li>Now run<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>
+<code>ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process(ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process("http://yourtumblr.tumblr.com",format="markdown",grab_images=true)</code>
+If you are getting the following error <code>Errno::ENOENT</code>, the fix for this a bit hackey but works. It works by creating symlinks:
+
+<ol>
+<li><code>cd to /usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
+<li><code>cd ..</code></li>
+<li><code>ln -s %{TUMBLR_EXPORTED_POSTS_DIRECTORY}</code></li>
+<li><code>Run the migration command again</code></li>
+</ol>
+</li>
+<li>In your the folder you ran the command should now be your Tumblr posts in Markdown. Move these to <code>source/_posts</code> folder of your Octopress directory.</li>
+<li><code>rake generate &amp;&amp; rake deploy</code><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+</ol>
+
+
+<h4>Redirect Tumblr URLs</h4>
+
+<p>Another step to fully migrate away from Tumblr is to fix the broken post links due to Tumblr&rsquo;s URL structure. This was an easy fix with <strong><a href="https://github.com/tsmango/jekyll_alias_generator">Alias Generator for Posts</a></strong>. With this plugin you can specify and number of aliases for each post, but it has to be added to each posts YAML Front-matter.</p>
+
+<p>Download the plugin and move <code>alias_generator.rb</code> to the <code>plugins</code> folder.
+In the posts YAML matter add <code>alias: /post/10976876616/my-post</code>. This will redirect any request to <code>http://octopressblog.com/post/10976876616/my-post</code> to the post which contains this direct request. You can also give more than <a href="https://github.com/tsmango/jekyll_alias_generator/blob/master/README.md">one alias</a>.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>There are more arguments for this command but this one simply fetches the posts in .markdown extension and embeds all the images which are present in the Tumblr post. The image source will still be from Tumblr so you might want to download the images and do a find/replace as there isn&rsquo;t a script for that yet.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Don&rsquo;t forget to git commit the source of your blog, otherwise if you lose it you won&rsquo;t be able to build your blog again and will have to start from scratch.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+     <!-- 
+  
+
+<span class="byline author vcard">Posted by <span class="fn">loop</span></span>
+ -->
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-24T13:09:00+01:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time> &bull;
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/github-pages/'>GitHub Pages</a>, <a class='category' href='/categories/guide/'>Guide</a>, <a class='category' href='/categories/octopress/'>Octopress</a>, <a class='category' href='/categories/tumblr-migration/'>Tumblr Migration</a>, <a class='category' href='/categories/tumblr-to-octopress/'>Tumblr to Octopress</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://finitepost.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/" data-via="" data-counturl="http://finitepost.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2013/05/29/open-source-alternative-to-google-reader/" title="Previous Post: Open Source Alternative to Google Reader">&laquo; Open Source Alternative to Google Reader</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/">Quick Start Guide to Setting Up Octopress From Tumblr</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/29/open-source-alternative-to-google-reader/">Open Source Alternative to Google Reader</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/24/migrating-from-tumblr-to-octopress/">Migrating from Tumblr to Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/24/hello-world/">Hello World</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/09/06/my-journey-with-ios-and-android/">My Journey With iOS And Android</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - loop <br/>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
