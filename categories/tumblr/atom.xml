@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tumblr | Finite Post]]></title>
   <link href="http://finitepost.com/categories/tumblr/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-06-24T15:58:18+01:00</updated>
+  <updated>2013-06-24T17:03:05+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -21,6 +21,8 @@
     <content type="html"><![CDATA[<p>I&rsquo;ve decided to make a move from Tumblr to static blogging using Octpress, which is hosted on GitHub pages. This gives me the oppurtunity to learn more about Ruby and git. So far I&rsquo;ve managed to sucessfully install Octopress after coming across a load of errors. It took me about four times to have it deployed correctly.</p>
 
 <p>I will fully document about the process after I sucuessfully import my Tumblr posts to here. The importing is where the headache begins.</p>
+
+<p>EDIT: Check out the full guide for the migration, <a href="http://finitepost.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/">here</a>.</p>
 ]]></content>
   </entry>
   
