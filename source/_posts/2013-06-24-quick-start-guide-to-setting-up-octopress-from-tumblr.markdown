@@ -20,7 +20,7 @@ Migrating to Octopress was really easy with the [jekyll-import](https://github.c
 1. Setup Octopress following the [docs from Octopress](http://octopress.org/docs/setup/). This is relatively simple and shouldn't take too long.
 2. Now this is the main part of the migration. Download the migration gem by running `gem install jekyll-import --pre`
 3. You also need to install json gem and Python's html2text package by running `gem install json` and `pip install html2text`. The html2text package is needed for the Tumblr HTML posts to be converted to Markdown which is the content writing language for Octopress.
-For some reason the html2text installation kept going wrong for me and kept throwing `failed with error code 1`
+For some reason the html2text installation kept going wrong for me and kept throwing `failed with error code 1`.
 It turned out that I didn't have permission to install it. To fix this problem simply run `sudo pip install html2text`. Now if you try to run `which html2text` you should see the a path to the executable. If not, reinstall Python, html2text and check that you have updated your PYTHON_PATH env variable to pick up the html2text.
 4. Download my modified [tumblr.rb](https://gist.github.com/loop/5850220#file-tumblr-rb) script. Octopress uses .markdown extensions, the script needs to be modified a bit and also trunicates titles if they are over a 255 characters long. Place this file into `/usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/`
 5. Now run[^1]
