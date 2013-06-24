@@ -4,7 +4,7 @@
   <title><![CDATA[Category: GitHub Pages | Finite Post]]></title>
   <link href="http://finitepost.com/categories/github-pages/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-06-24T15:52:04+01:00</updated>
+  <updated>2013-06-24T15:58:18+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -28,7 +28,7 @@
 <li>Setup Octopress following the <a href="http://octopress.org/docs/setup/">docs from Octopress</a>. This is relatively simple and shouldn&rsquo;t take too long.</li>
 <li>Now this is the main part of the migration. Download the migration gem by running <code>gem install jekyll-import --pre</code></li>
 <li>You also need to install json gem and Python&rsquo;s html2text package by running <code>gem install json</code> and <code>pip install html2text</code>. The html2text package is needed for the Tumblr HTML posts to be converted to Markdown which is the content writing language for Octopress.
-For some reason the html2text installation kept going wrong for me and kept throwing <code>failed with error code 1</code>
+For some reason the html2text installation kept going wrong for me and kept throwing <code>failed with error code 1</code>.
 It turned out that I didn&rsquo;t have permission to install it. To fix this problem simply run <code>sudo pip install html2text</code>. Now if you try to run <code>which html2text</code> you should see the a path to the executable. If not, reinstall Python, html2text and check that you have updated your PYTHON_PATH env variable to pick up the html2text.</li>
 <li>Download my modified <a href="https://gist.github.com/loop/5850220#file-tumblr-rb">tumblr.rb</a> script. Octopress uses .markdown extensions, the script needs to be modified a bit and also trunicates titles if they are over a 255 characters long. Place this file into <code>/usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
 <li>Now run<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>
