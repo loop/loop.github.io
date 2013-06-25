@@ -4,7 +4,7 @@
   <title><![CDATA[Finite Post]]></title>
   <link href="http://finitepost.com/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-06-25T13:51:18+01:00</updated>
+  <updated>2013-06-25T13:56:30+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -105,7 +105,8 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 
 <p>Another thing, I had to setup was starred articles to Pinboard. I used ifttt for this. In the <strong>Special</strong> folder there is a subsection called <strong>Starred</strong>, you can actually view this as a RSS feed, by clicking on the RSS icon on the top right-hand side. With this you should get something like this:</p>
 
-<p><code>http://myrssreader.herokuapp.com/public.php?op=rss&amp;id=-1&amp;key=2cd209as34df3451eedef139cba4b19d10ee6158</code></p>
+<pre><code>http://myrssreader.herokuapp.com/public.php?op=rss&amp;id=-1&amp;key=2cd209as34df3451eedef139cba4b19d10ee6158
+</code></pre>
 
 <p>With that feed URL, you can set up a ifttt recipe that takes the RSS feed and adds any new posts to your Pinboard.</p>
 
