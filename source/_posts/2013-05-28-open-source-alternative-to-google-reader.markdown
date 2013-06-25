@@ -30,7 +30,7 @@ To have that Google Reader elements, I installed the following plug ins:
 
 Another thing, I had to setup was starred articles to Pinboard. I used ifttt for this. In the **Special** folder there is a subsection called **Starred**, you can actually view this as a RSS feed, by clicking on the RSS icon on the top right-hand side. With this you should get something like this:
 
-`http://myrssreader.herokuapp.com/public.php?op=rss&id=-1&key=2cd209as34df3451eedef139cba4b19d10ee6158`
+    http://myrssreader.herokuapp.com/public.php?op=rss&id=-1&key=2cd209as34df3451eedef139cba4b19d10ee6158
 
 With that feed URL, you can set up a ifttt recipe that takes the RSS feed and adds any new posts to your Pinboard.
 
