@@ -206,3 +206,11 @@ article mark {
 	-moz-box-shadow: #fdffb6 0 0 5px;
 	box-shadow: #fdffb6 0 0 5px;
 }
+
+body>nav a {
+	text-shadow: none;
+}
+
+body>nav a:hover {
+	text-decoration: underline;
+}
