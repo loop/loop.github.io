@@ -9,8 +9,8 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif; font-size: 17px; color: #000;
 	max-width: 750px;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
 	font-weight: 100;
 
 	a:hover { color: #3b185f; background: none; }
@@ -197,4 +197,12 @@ li code {
 
 .highlight code {
 	overflow: hidden;
+}
+
+article mark {
+	background-color: #fdffb6;
+	padding: 2px;
+	-webkit-box-shadow: #fdffb6 0 0 5px;
+	-moz-box-shadow: #fdffb6 0 0 5px;
+	box-shadow: #fdffb6 0 0 5px;
 }

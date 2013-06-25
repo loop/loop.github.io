@@ -6,3 +6,6 @@ comments: true
 categories:
 published: false
 ---
+Hello there, this is <mark>highlighted</mark>.
+
+**This should be markdown**
