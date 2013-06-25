@@ -214,3 +214,11 @@ body>nav a {
 body>nav a:hover {
 	text-decoration: underline;
 }
+
+#content div.pagination a.prev {
+	margin-top: -12px;
+}
+
+#content div.pagination a.next {
+	margin-top: -12px;
+}
