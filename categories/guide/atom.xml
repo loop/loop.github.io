@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Guide | Finite Post]]></title>
   <link href="http://finitepost.com/categories/guide/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-06-24T23:49:34+01:00</updated>
+  <updated>2013-06-25T12:53:58+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -25,28 +25,37 @@
 <p>Migrating to Octopress was really easy with the <a href="https://github.com/jekyll/jekyll-import">jekyll-import</a> gem. Even though the gem was fully provided, there was still some problems that came up. Here are the steps to make the migration go much more quickly. But before you start you should make sure you have installed Python and pip (this is a tool for easily installing and managing Python packages), here a <a href="http://docs.python-guide.org/en/latest/starting/install/osx.html">guide</a> I used for Mountain Lion.</p>
 
 <ol>
-<li>Setup Octopress following the <a href="http://octopress.org/docs/setup/">docs from Octopress</a>. This is relatively simple and shouldn't take too long.</li>
-<li>Now this is the main part of the migration. Download the migration gem by running <code>gem install jekyll-import --pre</code></li>
-<li>You also need to install json gem and Python's html2text package by running <code>gem install json</code> and <code>pip install html2text</code>. The html2text package is needed for the Tumblr HTML posts to be converted to Markdown which is the content writing language for Octopress.<br>
-For some reason the html2text installation kept going wrong for me and kept throwing <code>failed with error code 1</code>.<br>
-It turned out that I didn't have permission to install it.<br>
-To fix this problem simply run <code>sudo pip install html2text</code>.<br>
-Now if you try to run <code>which html2text</code> you should see the a path to the executable. If not, reinstall Python, html2text and check that you have updated your PYTHON_PATH env variable to pick up the html2text.</li>
-<li>Download my modified <a href="https://gist.github.com/loop/5850220#file-tumblr-rb">tumblr.rb</a> script. Octopress uses <code>.markdown</code> extensions, the script needs to be modified a bit and also trunicates titles if they are over a 255 characters long. Place this file into <code>/usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
-<li>Now run:
-```
-ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process(ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process("http://yourtumblr.tumblr.com",format="markdown",grab_images=true)
-```
-  If you are getting the following error <code>Errno::ENOENT</code>, the fix for this a bit hackey but works. It works by creating symlinks:
-    <ol>
-    <li><code>cd to /usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
-    <li><code>cd ..</code></li>
-    <li><code>ln -s %{TUMBLR_EXPORTED_POSTS_DIRECTORY}</code></li>
-    <li><code>Run the migration command again</code></li>
-    </ol>
-</li>
-<li>In your the folder you ran the command should now be your Tumblr posts in Markdown. Move these to <code>source/_posts</code> folder of your Octopress directory.</li>
-<li><code>rake generate && rake deploy</code></li>
+<li><p>Setup Octopress following the <a href="http://octopress.org/docs/setup/">docs from Octopress</a>. This is relatively simple and shouldn&rsquo;t take too long.</p></li>
+<li><p>Now this is the main part of the migration. Download the migration gem by running:</p>
+
+<pre><code> gem install jekyll-import --pre
+</code></pre></li>
+<li><p>You also need to install json gem and Python&rsquo;s html2text package by running <code>gem install json</code> and <code>pip install html2text</code>. The html2text package is needed for the Tumblr HTML posts to be converted to Markdown which is the content writing language for Octopress.</p>
+
+<p>For some reason the html2text installation kept going wrong for me and kept throwing <code>failed with error code 1</code>.
+It turned out that I didn&rsquo;t have permission to install it. To fix this problem simply run <code>sudo pip install html2text</code>. Now if you try to run <code>which html2text</code> you should see the a path to the executable. If not, reinstall Python, html2text and check that you have updated your PYTHON_PATH env variable to pick up the html2text.</p></li>
+<li><p>Download my modified <a href="https://gist.github.com/loop/5850220#file-tumblr-rb">tumblr.rb</a> script. Octopress uses .markdown extensions, the script needs to be modified a bit and also trunicates titles if they are over a 255 characters long. Place this file into:</p>
+
+<pre><code> /usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/
+</code></pre></li>
+<li><p>Now run<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<pre><code> ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process(ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process("http://yourtumblr.tumblr.com",format="markdown",grab_images=true)
+</code></pre>
+
+If you are getting the following error <code>Errno::ENOENT</code>, the fix for this a bit hackey but works. It works by creating symlinks:
+
+<ol>
+<li>cd to <code>/usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
+<li><code>cd ..</code></li>
+<li><code>ln -s %{TUMBLR_EXPORTED_POSTS_DIRECTORY}</code></li>
+<li>Run the migration command again.</li>
+</ol>
+
+
+<p><em>Note: The jekyll gem directory may vary if you are using a different version.</em></p></li>
+<li><p>In your the folder you ran the command should now be your Tumblr posts in Markdown. Move these to <code>source/_posts</code> folder of your Octopress directory.</p></li>
+<li><p><code>rake generate &amp;&amp; rake deploy</code><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p></li>
 </ol>
 
 
@@ -56,6 +65,16 @@ ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.p
 
 <p>Download the plugin and move <code>alias_generator.rb</code> to the <code>plugins</code> folder.
 In the posts YAML matter add <code>alias: /post/10976876616/my-post</code>. This will redirect any request to <code>http://octopressblog.com/post/10976876616/my-post</code> to the post which contains this direct request. You can also give more than <a href="https://github.com/tsmango/jekyll_alias_generator/blob/master/README.md">one alias</a>.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>There are more arguments for this command but this one simply fetches the posts in .markdown extension and embeds all the images which are present in the Tumblr post. The image source will still be from Tumblr so you might want to download the images and do a find/replace as there isn&rsquo;t a script for that yet.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Don&rsquo;t forget to git commit the source of your blog, otherwise if you lose it you won&rsquo;t be able to build your blog again and will have to start from scratch.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   
