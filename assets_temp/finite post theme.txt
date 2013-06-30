@@ -1,0 +1,156 @@
+<!html>
+<html>
+    <head>
+        <title>{Title}{block:PostTitle}: {PostTitle}{/block:PostTitle}</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,300italic,600italic,400,700,300,600,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="http://snpbx.us/finitepost/blogstyle.css" />
+        <link rel="alternate" type="application/rss+xml" title="Finite Post" href="http://feeds.feedburner.com/finitepost" />
+        <link rel="shortcut icon" href="http://snpbx.us/finitepost/fpfavicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="http://snpbx.us/finitepost/touch-icon.png"/>
+        <meta name="google-site-verification" content="c0jcBPfYpDgfk027LxLVUYjaGIl2vOJnTvkNfa83SFQ" />
+
+
+	
+	<!-- Google Analytics Start-->
+    <script type="text/javascript">
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-8387189-19']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+    </script>
+	<!-- Google Analytics End-->
+    
+    <meta name="twitter:card" value="summary">
+
+	</head>
+	
+	<body>
+			<div id="side">
+             <a href="/" class="logo" title="Finite Post"></a>
+			{Description}
+			<ul>
+				<li><a href="http://feeds.feedburner.com/finitepost">feed</a></li>
+            	<li><a href="http://twitter.com/finitepost">@finitepost</a></li>
+                <li><a href="mailto:hi@finitepost.com">email me</a></li>
+
+			</ul>
+			</div>
+			
+			<div id="what">
+				{block:Posts}
+			
+				{block:Link}
+				<div class="post link">
+					<h2><span class="linkimg"><a href="{Permalink}"><img src ="http://static.tumblr.com/lf2jfef/rlem5trw9/21.png" width="16px" height="16px" /></a></span>
+                    <a href="{URL}" class="name">{Name}</a>
+					</h2>
+					<div class="content">
+                    	<span>
+							{block:Description}{Description}{/block:Description}
+						</span>
+						
+					<span class="date">
+						<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}</a>
+					</span>
+				</div>
+			</div>
+			{/block:Link}
+			
+			{block:Video}
+			<div class="post video">
+				{Video-500}
+				{block:Caption}{Caption}{/block:Caption}
+				
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}</a> 
+			</div>
+			{/block:Video}
+			
+			{block:Quote}
+			<div class="post quote">
+				<blockquote class="thequote">
+					<span class="quot">{Quote}</span>
+				</blockquote>
+				{block:Source}{Source}{/block:Source}
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}</a>
+			</div>
+			{/block:Quote}
+			
+			{block:Photo}
+			<div class="post photo">
+				{LinkOpenTag}
+				<img src="{PhotoUrl-500}" />
+				{LinkCloseTag}
+				{block:Caption}{Caption}{/block:Caption}
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}</a>
+			</div>
+			{/block:Photo}
+			
+			{block:Text}
+			<div class="post text">
+				{block:Title}
+				<h2><a href="{Permalink}">{Title}</a></h2>
+				{/block:Title}
+				{Body}
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}</a>
+ 
+			</div>
+			{/block:Text}
+			
+			{/block:Posts}
+			
+		<!-- Disqus Start-->
+            <script type="text/javascript">
+            	var disqus_url = "{Permalink}";
+            	var disqus_title = "{block:PostTitle}{PostTitle}{/block:PostTitle}";
+            </script>
+            {block:Permalink}
+            <div id="disqus_thread"></div>
+			<script type="text/javascript">
+					(function() {
+								var dsq = document.createElement('script');
+								dsq.type = 'text/javascript';
+								dsq.async = true;
+								dsq.src = 'http://mycodelog.disqus.com/embed.js';
+								(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+								})();
+			</script>
+			
+			<noscript>Please enable JavaScript to view the comments.</noscript>
+			{/block:Permalink}
+			<script type="text/javascript">
+				var disqus_shortname = 'mycodelog';
+				(function () {
+								var s = document.createElement('script');
+								s.async = true;
+								s.src = 'http://mycodelog.disqus.com/count.js';
+								(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+								}());
+			</script>
+		<!-- Disqus End-->
+			
+			<div id="nav">
+				{block:NextPage}
+            	<a href="{NextPage}" id="back">&laquo; To the past</a>
+				{/block:NextPage}
+            
+      			{block:PreviousPage}
+      			<a href="{PreviousPage}" id="forward">To the present &raquo;</a>
+      			{/block:PreviousPage}
+			</div>
+		
+			<div id="footer">
+				This page brought to you by <strong><a href="/">{Title}</a></strong>.
+			</div>
+		</div>
+        
+	</body>
+</html>

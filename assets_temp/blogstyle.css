@@ -1,0 +1,252 @@
+body
+{
+	background: #fff;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0 auto;
+	width: 800px;
+}
+a
+{
+	color: #000;
+	text-decoration: none;
+}
+h1
+{
+	font-family: 'Open Sans';
+	font-size: 8em;
+	margin-bottom: .75em;
+	margin-left: -.1em;
+	padding: 0;
+	text-transform: uppercase;
+	width: 800px;
+}
+div#side
+{
+	float: left;
+	font-size: .85em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-right: 50px;
+	position: fixed;
+	width: 150px;
+	z-index:0;
+	padding-top: 5em;
+	padding-left: 20px;
+}
+p
+{
+	font-family: 'Open Sans';
+	font-size: .8em;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 0;
+}
+div#what
+{
+	float: right;
+	background-color: rgba(255,255,255,.95);
+	margin-top: 0;
+	padding-bottom: 2em;
+	width: 550px;
+	z-index:1;
+	position:relative;
+	border-left: 1px solid #E2E2E2;
+	padding-left: 45px;
+	padding-top: 4em;
+	padding-right: 10px;
+}
+div#what a
+{
+	border-bottom: 1px #aaa dotted;
+}
+div#what a:hover
+{
+	color: red;
+}
+div#side a
+{
+	font-weight: bold;
+}
+div#side ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+div#side ul li a
+{
+	color: red;
+}
+div#side ul li
+{
+	margin-bottom: .5em;
+}
+div#what span.date
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+div#what span.date a
+{
+	border-bottom: none;
+	color: #ccc;
+}
+div#what span.date a:hover
+{
+	color: #999;
+}
+div.post
+{
+	margin-bottom: 6em;
+}
+div.post h2
+{
+	font-size: 1.25em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	width: 550px;
+}
+div.content
+{
+	width: 550px;
+}
+q
+{
+	color: #666;
+}
+q:before, q:after
+{
+	content: "";
+}
+blockquote
+{
+	color: #666;
+	font-size: 14px;
+	margin-left: 0;
+	margin-top: 0;
+	padding-left: 16px;
+	width: 484px;
+}
+div.html_photoset
+{
+	margin-bottom: 1em;
+}
+blockquote.thequote
+{
+	background: url(http://static.tumblr.com/zipqugy/HJFkikpts/aster.png);
+	background-repeat: no-repeat;
+	margin-left: -30px;
+	padding-left: 30px;
+	width: 550px;
+}
+blockquote.thequote span.quot
+{
+	font-size: 1.25em;
+}
+div#what div.post span.date
+{
+	visibility: hidden;
+}
+div#what div.post:hover span.date
+{
+	visibility: visible;
+}
+div#what div.text h2 a
+{
+	border-bottom: none;
+	font-size: 1.25em;
+}
+div#what div.text h2 span.date a
+{
+	font-size: 12px;
+}
+div#what blockquote
+{
+	border-left: 10px solid red;
+	font-size: 14px;
+	font-weight: normal;
+}
+div#what blockquote.thequote
+{
+	border: 0;
+}
+img
+{
+	margin-bottom: 1em;
+}
+div#what div.photo span.date
+{
+	margin-bottom: 1em;
+}
+a#forward
+{
+	display: block;
+	float: right;
+}
+div#footer
+{
+	margin-top: 3em;
+	width: 550px;
+}
+div.quote
+{
+	margin-bottom: 6em;
+}
+object
+{
+	display: block;
+	margin-bottom: 1em;
+}
+ul, ol
+{
+	display: block;
+	padding-left: 21px;
+}
+pre
+{
+	border: dashed 1px black;
+	font: 12px Monaco, monospace;
+	line-height: 2;
+	overflow: auto;
+	width:525px;
+}
+code
+{
+	font: 12px Monaco, monospace;
+	line-height: 1.6;
+	margin-left: 2px;
+}
+span.linkimg
+{
+	position: relative;
+	margin-left: 0px;
+	border: 0 !important;
+	text-decoration: none !important;
+	font-size: 1.25em;
+	top: 24px;
+}
+.linkimg a
+{
+	border-bottom:none !important;
+	color: #777777;
+}
+.linkimg a:hover
+{
+	border-bottom:none !important;
+	color: #777777 !important;
+}
+.logo {
+ margin-bottom: 0px;
+ position: relative;
+ left: 5px;
+ bottom: 5px;
+ width: 140px;
+ height:140px;
+ display:block;
+ background:transparent url('http://snpbx.us/finitepost/finite-140.png') center top no-repeat;
+}
+
+/*lol 123*/

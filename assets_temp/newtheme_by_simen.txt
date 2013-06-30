@@ -1,0 +1,231 @@
+<! html>
+<html>
+	<head>
+		<title>{Title}{block:PostTitle}: {PostTitle}{/block:PostTitle}</title>
+		<style>
+			body {
+				width: 800px;
+				margin: 0 auto;
+				margin-top: 2em;
+				line-height: 1.4;
+				background: #fff;
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 14px;
+			}
+			a { color: #000; text-decoration: none; }
+			h1 { 
+				font-size: 8em;
+				padding: 0; margin-left: -.1em;
+				width: 800px;
+				margin-bottom: .75em;
+				text-transform: uppercase;
+			 }
+			div#side {
+				font-size: .85em;
+				margin-bottom: 0; margin-top: 0;
+				width: 150px; float: left;
+				padding-right: 150px;
+			}
+			p {
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: .8em; margin-top: 0;
+				font-size: 14px;
+				line-height: 1.5;
+			}
+			div#what {
+				width: 500px; float: left; margin-top: 0;
+				padding-bottom: 2em;
+			}
+			div#what a {
+				border-bottom: 1px #aaa dotted;
+			}
+			div#what a:hover { color: red; }
+			div#side a { font-weight: bold; }
+			div#side ul {
+				padding-left: 0;
+				list-style: none;
+			}
+			div#side ul li a { color: red; }
+			div#side ul li { margin-bottom: .5em; }
+			
+			div#what span.date {
+				font-size: 12px;
+				font-weight: bold;
+				margin-bottom: 0; padding-bottom: 0;
+			}
+			div#what span.date a {
+				border-bottom: none;
+				color: #ccc;
+			}
+			div#what span.date a:hover {
+				color: #999;
+			}
+			
+			div.post {
+				margin-bottom: 6em;
+			}
+			div.post h2 {
+				width: 500px; float: left;
+				font-size: 1.25em;
+				margin-top: 0;
+				margin-bottom: 1em;
+			}
+			div.content {
+				width: 500px;
+			}
+			
+
+			q { color: #666; } 
+			q:before, q:after { content: ""; }
+			blockquote {
+				padding-left: 16px;
+				font-size: 14px;
+				margin-left: 0; margin-top: 0;
+				width: 484px;
+				color: #666;
+			}
+			div.html_photoset { margin-bottom: 1em; }
+			blockquote.thequote {
+				width: 500px;
+				background: url(http://static.tumblr.com/zipqugy/HJFkikpts/aster.png) 
+        top left no-repeat;
+        	margin-left: -30px;
+        	padding-left: 30px;
+			}
+			blockquote.thequote span.quot {
+        		font-size: 1.25em;
+			}
+			div#what div.post span.date {
+				visibility: hidden;
+			}
+			div#what div.post:hover span.date {
+				visibility: visible;
+			}
+			
+			div#what div.text h2 a {
+				border-bottom: none;
+				font-size: 1.25em;
+			}
+			div#what div.text h2 span.date a {
+				font-size: 12px;
+			}
+			div#what div.text blockquote {
+				font-size: 14px;
+				font-weight: normal;
+			}
+			
+			img {
+				margin-bottom: 1em;
+			}
+			div#what div.photo span.date {
+				margin-bottom: 1em;
+			}
+			a#forward { display: block;float: right; }
+			div#footer {
+				margin-top: 3em;
+				width: 500px;
+			}
+			div.quote { margin-bottom: 6em; }
+			object { margin-bottom: 1em; display:block; }
+			ul, ol { padding-left: 0; display: block; }
+		</style>
+		
+	</head>
+	<body>
+		<h1><a href="/" id="yes">{Title}</a></h1>
+		<div id="side">
+		{Description}
+		<ul>
+			<li><a href="{RSS}">Feed</a></li>
+		</ul>
+		</div>
+		<div id="what">
+			{block:Posts}
+			
+			{block:Link}
+			<div class="post link">
+				<h2>
+				<a href="{URL}" class="name">{Name}</a>
+				</h2>
+				<div class="content">
+					{block:Description}{Description}{/block:Description}
+					
+					<span class="date">
+					<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}
+					</a>
+					</span>
+				</div>
+			</div>
+			{/block:Link}
+			
+			{block:Video}
+			<div class="post video">
+				{Video-500}
+				{block:Caption}{Caption}{/block:Caption}
+				
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}
+				</a>
+			</div>
+			{/block:Video}
+			
+			{block:Quote}
+			<div class="post quote">
+				<blockquote class="thequote">
+				<span class="quot">
+				{Quote}
+				</span>
+				</blockquote>
+				{block:Source}{Source}{/block:Source}
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}
+				</a>
+			</div>
+			{/block:Quote}
+			
+			{block:Photo}
+			<div class="post photo">
+				{LinkOpenTag}
+				<img src="{PhotoUrl-500}" />
+				{LinkCloseTag}
+				{block:Caption}{Caption}{/block:Caption}
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}
+				</a>
+			</div>
+			{/block:Photo}
+			
+			{block:Text}
+			<div class="post text">
+				
+				{block:Title}
+				<h2>
+				<a href="{Permalink}">{Title}</a>
+				</h2>
+				{/block:Title}
+				
+				{Body}
+				<span class="date">
+				<a href="{Permalink}">{ShortMonth} {DayOfMonth}, {Year}
+				</a>
+			</div>
+			{/block:Text}
+			
+			{/block:Posts}
+			
+			<div id="nav">
+			{block:NextPage}<a href="{NextPage}" id="back">
+			&laquo; To the past</a>
+			{/block:NextPage}
+      		{block:PreviousPage}
+      		<a href="{PreviousPage}" id="forward">To the future &raquo;</a>
+      		{/block:PreviousPage}
+			</div>
+		
+			<div id="footer">
+			This page brought to you by <strong><a href="/">{Title}</a></strong>. Design by <a href="http://enthusiasms.org/">Simen</a>.
+			</div>
+		
+		</div>
+	</body>
+</html>
