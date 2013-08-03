@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Artisan"
+date: 2013-08-03 18:34
+comments: true
+categories:
+- Art
+- Creators
+---
+>__ar·ti·san__ [ahr-tuh-zuhn]
+>
+> 1. a person skilled in an applied art; a craftsperson.
+> 2. a person or company that makes a high-quality or distinctive product in small quantities, usually by hand or using traditional methods: our favorite local food artisans.
+
+I have recently taken an interest in watching videos where craftsman in various trades ranging from calligraphy to woodwork make stuff.[^1] These aren't just videos of people quickly making things to quickly ship to their customers, these are people who have spent years working towards mastering their craft. These people are called <mark>Artisans</mark>.
+
+These people spend their entire life crafting, taking time and perfecting each product they make. <mark>Taking time</mark> is something many people don't do when creating these days. Artisans don't even believe they have perfected at their job, they are always trying to improve. A good example here is of a 86 year old Sushi Chef called Jiro Ono. He is a master at Sushi with a 3 star Michelin restaurant. Even he is constantly learning, constantly looking for ways to improve, always challenging his own assumptions.
+
+>Always look ahead and above yourself. Always try to improve on yourself. Always strive to elevate your craft. That’s what he taught me. – Yoshikazu Ono[^2]
+
+Especially in the app world, there are too many people just putting things out there for no reason, they hurriedly write a piece of code or design something and put it out there as a finished product. This is wrong. Just because we now have tools that can speed up the process of creation doesn't mean we can't take the extra time to carefully think about how we can perfect it. <mark>The art of craftsmanship doesn't have to be lost.</mark>
+
+From all the people I consider to be a Artisan, they all have the following in common:
+
+- incredibly patient
+- takes their time
+- prioritise quality rather than quantity
+- always learning to improve
+- picks the [best](http://dcurt.is/the-best) of everything
+- loves their job
+
+Next time you decide to make something, take extra time crafting and re-crafting until it is perfect. You will almost definitely make something that sucks more than a few times. Spend time and think about why it sucks. You shouldn't be in a hurry to move on to the next iteration of your product. You will be spending your lifetime in this craft. It is time to do it correctly.
+
+[^1]: I highly recommend [/r/ArtisanVideos/](http://www.reddit.com/r/ArtisanVideos/).
+[^2]: Son of Jiro Ono who is being trained by Jiro. If you have time you should watch [Jiro Dreams of Sushi](http://www.youtube.com/watch?v=M-aGPniFvS0).
