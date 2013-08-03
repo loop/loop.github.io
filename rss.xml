@@ -4,7 +4,7 @@
   <title><![CDATA[Finite Post]]></title>
   <link href="http://finitepost.com/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-08-03T14:21:58+01:00</updated>
+  <updated>2013-08-03T19:38:08+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Artisan]]></title>
+    <link href="http://finitepost.com/2013/08/03/artisan/"/>
+    <updated>2013-08-03T18:34:00+01:00</updated>
+    <id>http://finitepost.com/2013/08/03/artisan</id>
+    <content type="html"><![CDATA[<blockquote><p><strong>ar·ti·san</strong> [ahr-tuh-zuhn]</p>
+
+<ol>
+<li>a person skilled in an applied art; a craftsperson.</li>
+<li>a person or company that makes a high-quality or distinctive product in small quantities, usually by hand or using traditional methods: our favorite local food artisans.</li>
+</ol>
+</blockquote>
+
+<p>I have recently taken an interest in watching videos where craftsman in various trades ranging from calligraphy to woodwork make stuff.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> These aren&rsquo;t just videos of people quickly making things to quickly ship to their customers, these are people who have spent years working towards mastering their craft. These people are called <mark>Artisans</mark>.</p>
+
+<p>These people spend their entire life crafting, taking time and perfecting each product they make. <mark>Taking time</mark> is something many people don&rsquo;t do when creating these days. Artisans don&rsquo;t even believe they have perfected at their job, they are always trying to improve. A good example here is of a 86 year old Sushi Chef called Jiro Ono. He is a master at Sushi with a 3 star Michelin restaurant. Even he is constantly learning, constantly looking for ways to improve, always challenging his own assumptions.</p>
+
+<blockquote><p>Always look ahead and above yourself. Always try to improve on yourself. Always strive to elevate your craft. That’s what he taught me. – Yoshikazu Ono<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p></blockquote>
+
+<p>Especially in the app world, there are too many people just putting things out there for no reason, they hurriedly write a piece of code or design something and put it out there as a finished product. This is wrong. Just because we now have tools that can speed up the process of creation doesn&rsquo;t mean we can&rsquo;t take the extra time to carefully think about how we can perfect it. <mark>The art of craftsmanship doesn&rsquo;t have to be lost.</mark></p>
+
+<p>From all the people I consider to be a Artisan, they all have the following in common:</p>
+
+<ul>
+<li>incredibly patient</li>
+<li>takes their time</li>
+<li>prioritise quality rather than quantity</li>
+<li>always learning to improve</li>
+<li>picks the <a href="http://dcurt.is/the-best">best</a> of everything</li>
+<li>loves their job</li>
+</ul>
+
+
+<p>Next time you decide to make something, take extra time crafting and re-crafting until it is perfect. You will almost definitely make something that sucks more than a few times. Spend time and think about why it sucks. You shouldn&rsquo;t be in a hurry to move on to the next iteration of your product. You will be spending your lifetime in this craft. It is time to do it correctly.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I highly recommend <a href="http://www.reddit.com/r/ArtisanVideos/">/r/ArtisanVideos/</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Son of Jiro Ono who is being trained by Jiro. If you have time you should watch <a href="http://www.youtube.com/watch?v=M-aGPniFvS0">Jiro Dreams of Sushi</a>.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quick Start Guide to Setting Up Octopress From Tumblr]]></title>
@@ -395,39 +442,6 @@ If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a h
 <p><img src="http://media.tumblr.com/tumblr_m5x81fbrAb1qamsz8.jpg" alt="" /></p>
 
 <p><strong>Images Source:</strong> Microsoft <a href="http://www.microsoft.com/surface">Surface Website</a></p>
-
-<p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apple iPhone Prediction in 2007]]></title>
-    <link href="http://finitepost.com/2012/06/13/apple-iphone-prediction-in-2007/"/>
-    <updated>2012-06-13T00:00:00+01:00</updated>
-    <id>http://finitepost.com/2012/06/13/apple-iphone-prediction-in-2007</id>
-    <content type="html"><![CDATA[<p><a href="http://www.bloomberg.com/apps/news?pid=newsarchive&amp;sid=aRelVKWbMAv0">This</a> article has been sitting on my Instapaper for nearly 2 months now, I just got a chance to read it and was amazed at it.</p>
-
-<p>To give you a quick insight on the article:</p>
-
-<blockquote><p>The iPhone is nothing more than a luxury bauble that will appeal to a few gadget freaks. In terms of its impact on the industry, the iPhone is less relevant.</p>
-
-<p>Apple will sell a few to its fans, but the iPhone won&rsquo;t make a long-term mark on the industry.</p></blockquote>
-
-<p>Matthew Lynn, the author of this article could not be more wrong.</p>
-
-<p>A quick overview of Apple&rsquo;s numbers shows just how wrong the prediction was:</p>
-
-<p><strong>262 </strong>iPhones sold per minute
-<strong>109</strong> iPads sold per minute<strong>
-365 Million</strong> iOS devices sold</p>
-
-<p><strong>30%</strong> of the US population have an iPhone
-<strong>18,000</strong> people visit Apple Store each week
-<strong>$1598.32</strong> is made in profit each second</p>
-
-<p>Just to put things into perspective, more iPhones are being sold than people being born everyday.</p>
-
-<p><strong>Source</strong>: Numbers are from <a href="http://investor.apple.com/sec.cfm">SEC Filings</a> on Apple&rsquo;s website and <a href="http://www.ritholtz.com/blog/2012/04/apple-by-the-numbers/">Apple by the Numbers</a> by Barry Ritholtz.</p>
 
 <p><strong>P.S.</strong> It would be pretty awesome if you followed me on Twitter, <a href="http://twitter.com/finitepost">here</a>.</p>
 ]]></content>
