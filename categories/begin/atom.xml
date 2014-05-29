@@ -4,7 +4,7 @@
   <title><![CDATA[Category: begin | Finite Post]]></title>
   <link href="http://finitepost.com/categories/begin/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2013-08-03T19:38:08+01:00</updated>
+  <updated>2014-05-29T15:02:31-07:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
     <link href="http://finitepost.com/2013/05/24/hello-world/"/>
-    <updated>2013-05-24T12:49:00+01:00</updated>
+    <updated>2013-05-24T12:49:00-07:00</updated>
     <id>http://finitepost.com/2013/05/24/hello-world</id>
     <content type="html"><![CDATA[<p>Hello, world! This is a first post from Octopress.</p>
 ]]></content>
