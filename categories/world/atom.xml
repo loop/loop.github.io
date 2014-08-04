@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: world | Finite Post]]></title>
-  <link href="http://finitepost.com/categories/world/atom.xml" rel="self"/>
-  <link href="http://finitepost.com/"/>
-  <updated>2014-08-04T21:55:49+01:00</updated>
-  <id>http://finitepost.com/</id>
+  <title><![CDATA[Category: world | Blog]]></title>
+  <link href="http://blog.yogeshn.com/categories/world/atom.xml" rel="self"/>
+  <link href="http://blog.yogeshn.com/"/>
+  <updated>2014-08-04T21:57:17+01:00</updated>
+  <id>http://blog.yogeshn.com/</id>
   <author>
-    <name><![CDATA[loop]]></name>
+    <name><![CDATA[yn]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://finitepost.com/2013/05/24/hello-world/"/>
+    <link href="http://blog.yogeshn.com/2013/05/24/hello-world/"/>
     <updated>2013-05-24T12:49:00+01:00</updated>
-    <id>http://finitepost.com/2013/05/24/hello-world</id>
+    <id>http://blog.yogeshn.com/2013/05/24/hello-world</id>
     <content type="html"><![CDATA[<p>Hello, world! This is a first post from Octopress.</p>
 ]]></content>
   </entry>

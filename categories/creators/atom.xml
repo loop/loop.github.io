@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Creators | Finite Post]]></title>
-  <link href="http://finitepost.com/categories/creators/atom.xml" rel="self"/>
-  <link href="http://finitepost.com/"/>
-  <updated>2014-08-04T21:55:49+01:00</updated>
-  <id>http://finitepost.com/</id>
+  <title><![CDATA[Category: Creators | Blog]]></title>
+  <link href="http://blog.yogeshn.com/categories/creators/atom.xml" rel="self"/>
+  <link href="http://blog.yogeshn.com/"/>
+  <updated>2014-08-04T21:57:17+01:00</updated>
+  <id>http://blog.yogeshn.com/</id>
   <author>
-    <name><![CDATA[loop]]></name>
+    <name><![CDATA[yn]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Artisan]]></title>
-    <link href="http://finitepost.com/2013/08/03/artisan/"/>
+    <link href="http://blog.yogeshn.com/2013/08/03/artisan/"/>
     <updated>2013-08-03T18:34:00+01:00</updated>
-    <id>http://finitepost.com/2013/08/03/artisan</id>
+    <id>http://blog.yogeshn.com/2013/08/03/artisan</id>
     <content type="html"><![CDATA[<blockquote><p><strong>ar·ti·san</strong> [ahr-tuh-zuhn]</p>
 
 <ol>
