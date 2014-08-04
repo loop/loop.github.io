@@ -22,10 +22,6 @@ Tools Used to Produce This Site
 
 Finite Post is hosted on GitHub pages and articles are published via Octopress. Plugins used alongside Octopress are [Octopress responsive video embed](https://github.com/optikfluffel/octopress-responsive-video-embed) by Udo Kramer, [Jekyll alias Generator for Posts](https://github.com/tsmango/jekyll_alias_generator) by Tom Mango and customised [whiterspace](https://github.com/mjhea0/whiterspace) theme by Michael Herman.
 
-Current Setup
---------------------------------
-Late 2012 13" MacBook Pro, 2.4 GHz Intel Core i5, 8 GB 1333 MHz DDR3, Toshiba 500 GB HD
-
 Contact
 -------
 You can get in touch with me by emailing [hi@yogeshn.com](mailto:hi@yogeshn.com).
