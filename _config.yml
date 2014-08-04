@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://finitepost.com
-title: Finite Post
+url: http://blog.yogeshn.com
+title: Blog
 subtitle: A blog about code and design.
-author: loop
+author: yn
 simple_search: http://google.com/search
 description: A blog about code and design.
 
