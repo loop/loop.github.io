@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tiny Tiny RSS | Finite Post]]></title>
   <link href="http://finitepost.com/categories/tiny-tiny-rss/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2014-06-04T22:19:44-07:00</updated>
+  <updated>2014-08-04T21:55:49+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Open Source Alternative to Google Reader]]></title>
     <link href="http://finitepost.com/2013/05/29/open-source-alternative-to-google-reader/"/>
-    <updated>2013-05-29T13:09:00-07:00</updated>
+    <updated>2013-05-29T13:09:00+01:00</updated>
     <id>http://finitepost.com/2013/05/29/open-source-alternative-to-google-reader</id>
     <content type="html"><![CDATA[<p>As you may know <a href="http://www.google.com/reader">Google Reader</a> will be shutting down on <a href="http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html">1st July</a> and I&rsquo;ve spent quite some time looking at alternatives to replace it. I&rsquo;ve been using Google Reader since 2009, I&rsquo;ve read over 100,000 (from the web app) items and starred/shared over 2000 of them. I had a nice little setup going.</p>
 

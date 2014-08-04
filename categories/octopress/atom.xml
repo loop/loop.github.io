@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Finite Post]]></title>
   <link href="http://finitepost.com/categories/octopress/atom.xml" rel="self"/>
   <link href="http://finitepost.com/"/>
-  <updated>2014-06-04T22:19:44-07:00</updated>
+  <updated>2014-08-04T21:55:49+01:00</updated>
   <id>http://finitepost.com/</id>
   <author>
     <name><![CDATA[loop]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Quick Start Guide to Setting Up Octopress From Tumblr]]></title>
     <link href="http://finitepost.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/"/>
-    <updated>2013-06-24T13:09:00-07:00</updated>
+    <updated>2013-06-24T13:09:00+01:00</updated>
     <id>http://finitepost.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr</id>
     <content type="html"><![CDATA[<p>The title says a &ldquo;Quick Start Guide&rdquo; but this more of a full guide to fully migrate your tumblr blog to Octopress.</p>
 
