@@ -1,4 +1,3 @@
 User-agent: *
+Disallow: /
 Disallow: /colophon/
-
-Sitemap: http://blog.yogeshn.com/sitemap.xml
