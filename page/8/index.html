@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Blog</title>
+  <meta name="author" content="yn">
+
+  
+  <meta name="description" content="I recently got an iPad 2 and it seems I can do a lot of stuff from it! The
+only things I use my desktop is for programming and work things. I use &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.yogeshn.com/page/8">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@finitepost">
+<meta property="twitter:url" content="http://blog.yogeshn.com/page/8">
+<meta property="twitter:title" content="Blog">
+<meta property="twitter:description" content="I recently got an iPad 2 and it seems I can do a lot of stuff from it! The
+only things I use my desktop is for programming and work things. I use
+Posterous for some stuff and it seems there is no &hellip;">
+<meta name="twitter:creator" content="@yogesh_n">
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8387189-19']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner">
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.yogeshn.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="/colophon">Colophon</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+      <h1 class="entry-title"><a href="/2011/07/25/posterous-for-ipad/">Posterous for iPad</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-25T00:00:00+01:00" pubdate data-updated="true">Jul 25<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I recently got an iPad 2 and it seems I can do a lot of stuff from it! The
+only things I use my desktop is for programming and work things. I use
+Posterous for some stuff and it seems there is no iPad app for it! It is very
+weird as the founder used to be an Apple employee and has &ldquo;never owned a PC&rdquo;.</p>
+
+<p>I found a simple way to install their multi-functional bookmarket on the
+Safari bookmark bar. It is really simple:</p>
+
+<ol>
+<li>Add this page to your bookmark bar.</li>
+<li>Then edit the bookmark and rename it to what ever you like, I renamed it to &ldquo;Posterous&rdquo;; nice and simple.</li>
+<li>Then copy and paste the code below into the URL section.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>  javascript:var b=document.body;var POSTEROUS___bookmarklet_domain='http://posterous.com';var d=new Date();var e=(new Date(d.getFullYear(),d.getMonth(),d.getDate())).getTime();if(b&&!document.xmlVersion){void(z=document.createElement('script'));void(z.type='text/javascript');void(z.src='http://posterous.com/javascripts/bookmarklet2.js?'+e);void(b.appendChild(z));}else{}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You are now done.</p>
+
+<p>Update 25-May-2013: I&rsquo;ve been going through all my posts to make sure everything was mirgated correctly from Tumblr and I should point out this post is now useless. Posterous has been acquired by Twitter and been shut down.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+      <h1 class="entry-title"><a href="/2011/07/14/installing-xampp-on-ubuntu/">Installing XAMPP on Ubuntu</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-14T00:00:00+01:00" pubdate data-updated="true">Jul 14<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Follow these simple steps to install XAMPP on Ubuntu:</p>
+
+<ul>
+<li>Download XAMPP for Linux from <a href="http://www.apachefriends.org/en/xampp-linux.html">here</a> and copy the tar.gz to the desktop.</li>
+<li>Open up Terminal and type:</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd Desktop
+</span><span class='line'>sudo -s
+</span><span class='line'>tar xvfz xampp-linux-1.7.4.tar.gz -C /opt</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Now when you try to copy anything to /opt/lampp/htdocs you will get permission denied. To fix this problem run this in Terminal:
+<code>chown username -R /opt/lampp/htdocs</code></li>
+</ul>
+
+
+<p>XAMPP is now installed! There is no GUI to start, stop and refresh XAMPP so to
+start it type this in Terminal:</p>
+
+<p><code>/opt/lampp/lampp start</code></p>
+
+<p>To stop it&rsquo;s:</p>
+
+<p><code>/opt/lampp/lampp start</code></p>
+
+<p>For more parameters go <a href="http://www.apachefriends.org/en/xampp-%0Alinux.html#382">here</a>.</p>
+
+<p>Also to create password for FTP, MySQL etc run this in terminal and follow the
+on screen instructions:</p>
+
+<p><code>sudo /opt/lampp/lampp security</code></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+      <h1 class="entry-title"><a href="/2011/07/12/how-im-living-in-the-cloud-and-loving-it/">How I&#8217;m Living in the Cloud and Loving It</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-12T00:00:00+01:00" pubdate data-updated="true">Jul 12<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Firstly let me just say that the title maybe a little misleading, I haven&rsquo;t
+completely moved to the cloud yet, the majority of the things I do on my
+computer are done on the Cloud as well as the storage of my data.</p>
+
+<p>Firstly for my files, I use <a href="https://www.dropbox.com/">Dropbox</a>, I know there
+has been a lot of rumours that Dropbox can look at our data well that is just
+pure bullshit, plus if I had any sensitive information I encrypt it then copy
+it to my Dropbox folder, Dropbox is one of the best Cloud services I have ever
+used, I really don&rsquo;t know what I would do without it, it pretty much has all
+my documents, my project files (Once a project has been finished I copy it to
+my external HD).</p>
+
+<p>Dropbox also come into play for my password management, I use a different
+password on every single site, I&rsquo;m very security conscious now, I think the
+recent hacking teach us a lesson about password management, for example if I
+find out that one of the password dumps had my login to the password I don&rsquo;t
+have to have sleepless nights of worrying about my 100&rsquo;s of other accounts
+because I&rsquo;m using a completely unique password for each website. Because I use
+a different password for each site it is important to me that I have all this
+data synchronized across all my device, I have an iPhone and a Windows PC, so
+I choose 1Password, with <a href="http://agilebits.com/products/1Password">1Password</a>
+it has been heaven managing all my passwords, one of the useful features of
+1Password is it&rsquo;s ability to sync my password files and other secure notes
+using Dropbox. Also 1Password uses AES Encryption Using OpenSSL, (go
+<a href="http://help.agilebits.com/1Password/agile_keychain_design.html">here</a> for
+more info).</p>
+
+<p>For my bookmarks, I used to use <a href="http://www.google.com/support/chrome/bin/answer.py?answer=185277">Google Chrome
+sync</a> option
+but then I realised that if I go on a computer I wouldn&rsquo;t be connected to my
+computer so I turned to <a href="http://pinboard.in">Pinboard</a>, I use two extensions
+on Chrome, one is called <a href="https://chrome.google.com/webst%0Aore/detail/geblijjkhblgfjmoldempogloilbfnkk">Pinboard For Chrome</a> and <a href="https://chrome.goo%0Agle.com/webstore/detail/nfccdohlgojifgadgnbjoejdfaalaehn">Pinboard</a>. Even though you
+have to pay for it, it is a very good service and I have my bookmarks where
+ever I go. It is really worth it.</p>
+
+<p>For my email and calendar I use <a href="http://www.google.com/about/">Google
+services</a>, for email I do something very
+special, because I have more than few email addresses it is a big hassle to
+check email one everyday, so what I do is forward all the email to my main
+@gmail.com address, and use the &lsquo;send as…&rsquo; feature so I can send email as
+other addresses depending on which email it was sent to first. Google
+automatically sets this for you so you don&rsquo;t have to worry about it.</p>
+
+<p>I also use <a href="http://google.com/calendar">Google Calendar</a>, this way I can
+access what I have to be and where I have to be from anywhere I wish, Google
+has become my personal assistant.</p>
+
+<p>For photos I use <a href="http://google.com/picasa">Google Picasa</a>, the main reason I
+use this is because my family lives on different parts of the Earth and now
+that everyone of them are connected to the Internet, I can simply email them a
+secret link which gives them accesses to a specific album. I don&rsquo;t yet use
+anything for videos as I don&rsquo;t take videos just photos, but if I had to choose
+a cloud service for videos, I would choose <a href="http://youtube.com">YouTube</a>, once
+again it has the secret link feature and it is owned by Google. I trust Google
+a lot because I don&rsquo;t see them going out of business and I don&rsquo;t think hackers
+would mess with Google.</p>
+
+<p>For notes I use 2 things, first one is <a href="http://evernote.com">Evernote</a>, it is
+available to me on all the platforms I use, but thing I found was that it is
+slow for me on the iPhone so I use an app on the iPhone called
+&lsquo;<a href="http://itunes.apple.com/us/app/elements-dropbox-powered-%0Atext/id382752422?mt=8">Elements</a>&rsquo;, I use elements if I need to write down a very quick
+note, it uses Dropbox as a syncing medium and creates .txt files which are
+readable on all platforms.</p>
+
+<p>For my to-do list I use a wunderful (Sorry, bad joke) thing called
+<a href="https://www.wunderlist.com/">Wunderlist</a>, I love it! I can use it on Windows,
+Mac, iOS and Andriod! Even though I only have iOS and Windows. The syncing is
+beautiful and have all my tasks in folders and everything. Really useful and
+now never forget to do anything.</p>
+
+<p>I don&rsquo;t currently use anything for my music or films as I have a lot of it and
+haven&rsquo;t found a service I like, if you have a suggestion please leave a
+comment below.</p>
+
+<p>Nor am I using any cloud service for documents and such, but in the future I
+will be turning to Google again and using <a href="http://google.com/documents">Google
+Docs</a> as once again I can use it on any platform
+I wish.</p>
+
+<p>If you use any cloud services let me know and I will check them out. The main
+things I look for in a cloud service is reliability, security and platform
+compatibility, I don&rsquo;t want a service which I can use on platform, who the
+hell would want that?</p>
+
+<p><em>Note: Monthly I take a backup of my Dropbox and Pinboard as I feel like it is
+a nice thing to do and if for some reason the servers go down due to
+datacenter problem, I don&rsquo;t have to worry as I have a backup.</em></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+      <h1 class="entry-title"><a href="/2011/07/10/wgetting-a-website/">Wgetting a Website</a></h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+01:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><code>wget -m -p -P ~/website example.com</code></p>
+
+<p>(let it do it&rsquo;s stuff)</p>
+
+<p><code>rsync -avz --delete ~/website/ me@domain.com:path/of/website</code></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- This defines how Octopress will use posts with external-url. -->
+      <h1 class="entry-title"><a href="http://opensourcesoft.org/software/27-notepad-plugins-and-which-you-really-need/">Make Notepad++ an Even Better Editing App With Powerful Plug-Ins </a> <a href="/2011/07/10/make-notepad-an-even-better-editing-app-with-powerful-plug-ins/">&#8734;</a> </h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+01:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- This defines how Octopress will use posts with external-url. -->
+      <h1 class="entry-title"><a href="http://www.addictivetips.com/ubuntu-linux-tips/install-essentials-packages-easily-in-ubuntu-with-eve-installer/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Addictivetips+%28AddictiveTips%29">Install Essentials Packages Easily in Ubuntu </a> <a href="/2011/07/10/install-essentials-packages-easily-in-ubuntu/">&#8734;</a> </h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+01:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- This defines how Octopress will use posts with external-url. -->
+      <h1 class="entry-title"><a href="http://www.howtogeek.com/63997/how-to-install-programs-in-ubuntu-in-the-command-line/">How to Install Programs in Ubuntu in the Command-Line </a> <a href="/2011/07/10/how-to-install-programs-in-ubuntu-in-the-command-line/">&#8734;</a> </h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+01:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- This defines how Octopress will use posts with external-url. -->
+      <h1 class="entry-title"><a href="http://code.google.com/edu/languages/google-python-class/set-up.html">Google Python Class </a> <a href="/2011/07/10/google-python-class/">&#8734;</a> </h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+01:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I think having videos hep you learn better so I&rsquo;m going through the Google
+Python Class so I can learn the basics. It is really helpful and feel like I&rsquo;m
+learning quite a lot.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- This defines how Octopress will use posts with external-url. -->
+      <h1 class="entry-title"><a href="http://modernerd.com/post/535350679">Solved: Gmail, iPad, iPhone, and Multiple From Addresses </a> <a href="/2011/07/08/solved-gmail-ipad-iphone-and-multiple-from-addresses/">&#8734;</a> </h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-08T00:00:00+01:00" pubdate data-updated="true">Jul 8<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>For a long time I’ve forwarded many email addresses to a single Gmail
+account, a setup I call <a href="http://modernerd.com/post/348119427%0A/inbox-heaven">Inbox Heaven.</a> It’s great because you get a unified inbox to collect mail from
+multiple email addresses that you can check on any device.</p>
+
+<p>One caveat has been that Mail on the iPhone and iPad won’t let…</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+  
+    <!-- This defines how Octopress will use posts with external-url. -->
+      <h1 class="entry-title"><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/">Computer Science and Programming </a> <a href="/2011/07/08/computer-science-and-programming/">&#8734;</a> </h1>
+      
+      
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-08T00:00:00+01:00" pubdate data-updated="true">Jul 8<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;m using the MIT OpenCourseWare to learn about Computer Science and help me
+learn Python as well. It actually helps you think like a Computer Scientist.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/page/9/">&larr; Older</a>
+    
+    
+    <a class="next" href="/page/7/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/08/03/artisan/">Artisan</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/">Quick Start Guide to Setting Up Octopress From Tumblr</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/29/open-source-alternative-to-google-reader/">Open Source Alternative to Google Reader</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/24/migrating-from-tumblr-to-octopress/">Migrating from Tumblr to Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/24/hello-world/">Hello World</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - yn <br/>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

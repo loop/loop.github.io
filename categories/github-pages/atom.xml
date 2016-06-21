@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GitHub Pages | Blog]]></title>
+  <link href="http://blog.yogeshn.com/categories/github-pages/atom.xml" rel="self"/>
+  <link href="http://blog.yogeshn.com/"/>
+  <updated>2014-08-04T22:33:26+01:00</updated>
+  <id>http://blog.yogeshn.com/</id>
+  <author>
+    <name><![CDATA[yn]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quick Start Guide to Setting Up Octopress From Tumblr]]></title>
+    <link href="http://blog.yogeshn.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/"/>
+    <updated>2013-06-24T13:09:00+01:00</updated>
+    <id>http://blog.yogeshn.com/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr</id>
+    <content type="html"><![CDATA[<p>The title says a &ldquo;Quick Start Guide&rdquo; but this more of a full guide to fully migrate your tumblr blog to Octopress.</p>
+
+<p>I&rsquo;ve used Tumblr for the past 2 years as it was easy to set up and publish any content I wish to. It was easy to customise and best of all I didn&rsquo;t have to worry about the hosting solution but seeing as most of my posts are about code and development I decided to give <a href="http://octopress.org/">Octopress</a> a try. This also gives me a chance to learn a bit of Ruby.</p>
+
+<p>Migrating to Octopress was really easy with the <a href="https://github.com/jekyll/jekyll-import">jekyll-import</a> gem. Even though the gem was fully provided, there was still some problems that came up. Here are the steps to make the migration go much more quickly. But before you start you should make sure you have installed Python and pip (this is a tool for easily installing and managing Python packages), here a <a href="http://docs.python-guide.org/en/latest/starting/install/osx.html">guide</a> I used for Mountain Lion.</p>
+
+<ol>
+<li><p>Setup Octopress following the <a href="http://octopress.org/docs/setup/">docs from Octopress</a>. This is relatively simple and shouldn&rsquo;t take too long.</p></li>
+<li><p>Now this is the main part of the migration. Download the migration gem by running:</p>
+
+<pre><code> gem install jekyll-import --pre
+</code></pre></li>
+<li><p>You also need to install json gem and Python&rsquo;s html2text package by running <code>gem install json</code> and <code>pip install html2text</code>. The html2text package is needed for the Tumblr HTML posts to be converted to Markdown which is the content writing language for Octopress.</p>
+
+<p>For some reason the html2text installation kept going wrong for me and kept throwing <code>failed with error code 1</code>.
+It turned out that I didn&rsquo;t have permission to install it. To fix this problem simply run <code>sudo pip install html2text</code>. Now if you try to run <code>which html2text</code> you should see the a path to the executable. If not, reinstall Python, html2text and check that you have updated your PYTHON_PATH env variable to pick up the html2text.</p></li>
+<li><p>Download my modified <a href="https://gist.github.com/loop/5850220#file-tumblr-rb">tumblr.rb</a> script. Octopress uses .markdown extensions, the script needs to be modified a bit and also trunicates titles if they are over a 255 characters long. Place this file into:</p>
+
+<pre><code> /usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/
+</code></pre></li>
+<li><p>Now run<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<pre><code> ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process(ruby -rubygems -e 'require "jekyll/jekyll-import/tumblr"; JekyllImport::Tumblr.process("http://yourtumblr.tumblr.com",format="markdown",grab_images=true)
+</code></pre>
+
+If you are getting the following error <code>Errno::ENOENT</code>, the fix for this a bit hackey but works. It works by creating symlinks:
+
+<ol>
+<li>cd to <code>/usr/lib/ruby/gems/1.9.1/gems/jekyll0.11.2/lib/jekyll/migrators/</code></li>
+<li><code>cd ..</code></li>
+<li><code>ln -s %{TUMBLR_EXPORTED_POSTS_DIRECTORY}</code></li>
+<li>Run the migration command again.</li>
+</ol>
+
+
+<p><em>Note: The jekyll gem directory may vary if you are using a different version.</em></p></li>
+<li><p>In your the folder you ran the command should now be your Tumblr posts in Markdown. Move these to <code>source/_posts</code> folder of your Octopress directory.</p></li>
+<li><p><code>rake generate &amp;&amp; rake deploy</code><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p></li>
+</ol>
+
+
+<h4>Redirect Tumblr URLs</h4>
+
+<p>Another step to fully migrate away from Tumblr is to fix the broken post links due to Tumblr&rsquo;s URL structure. This was an easy fix with <strong><a href="https://github.com/tsmango/jekyll_alias_generator">Alias Generator for Posts</a></strong>. With this plugin you can specify and number of aliases for each post, but it has to be added to each posts YAML Front-matter.</p>
+
+<p>Download the plugin and move <code>alias_generator.rb</code> to the <code>plugins</code> folder.
+In the posts YAML matter add <code>alias: /post/10976876616/my-post</code>. This will redirect any request to <code>http://octopressblog.com/post/10976876616/my-post</code> to the post which contains this direct request. You can also give more than <a href="https://github.com/tsmango/jekyll_alias_generator/blob/master/README.md">one alias</a>.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>There are more arguments for this command but this one simply fetches the posts in .markdown extension and embeds all the images which are present in the Tumblr post. The image source will still be from Tumblr so you might want to download the images and do a find/replace as there isn&rsquo;t a script for that yet.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Don&rsquo;t forget to git commit the source of your blog, otherwise if you lose it you won&rsquo;t be able to build your blog again and will have to start from scratch.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

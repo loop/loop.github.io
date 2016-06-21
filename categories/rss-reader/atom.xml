@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: RSS Reader | Blog]]></title>
+  <link href="http://blog.yogeshn.com/categories/rss-reader/atom.xml" rel="self"/>
+  <link href="http://blog.yogeshn.com/"/>
+  <updated>2014-08-04T22:33:26+01:00</updated>
+  <id>http://blog.yogeshn.com/</id>
+  <author>
+    <name><![CDATA[yn]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Open Source Alternative to Google Reader]]></title>
+    <link href="http://blog.yogeshn.com/2013/05/29/open-source-alternative-to-google-reader/"/>
+    <updated>2013-05-29T13:09:00+01:00</updated>
+    <id>http://blog.yogeshn.com/2013/05/29/open-source-alternative-to-google-reader</id>
+    <content type="html"><![CDATA[<p>As you may know <a href="http://www.google.com/reader">Google Reader</a> will be shutting down on <a href="http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html">1st July</a> and I&rsquo;ve spent quite some time looking at alternatives to replace it. I&rsquo;ve been using Google Reader since 2009, I&rsquo;ve read over 100,000 (from the web app) items and starred/shared over 2000 of them. I had a nice little setup going.</p>
+
+<p>Google Reader was amazing, it had some amazing third-party apps like <a href="http://reederapp.com/">Reeder</a>, it had a full array of features (the most important one was speed!) which made it the best RSS Reader out there. I used and abandoned a few alternatives, these ranged from using <a href="http://blog.capwatkins.com/switching-from-rss-to-twitter">Twitter as a replacementt</a>, <a href="http://www.feedly.com/">Feedly</a>, <a href="http://theoldreader.com/">The Old Reader</a> and <a href="http://www.newsblur.com/">NewsBlur</a>. All these alternatives had pitfalls. Twitter was annoying because it required switching between my accounts and it was very annoying to use. Another thing that I had set up was any starred articles I did on Google Reader, they would automatically get bookmarked into <a href="http://pinboard.in">Pinboard</a> using <a href="https://ifttt.com">ifttt</a>, it used to be possible but it was <a href="http://thenextweb.com/apps/2012/09/20/ifttt-removes-twitter-triggers-comply-new-api-policies/">removed</a> due to Twitters API changes. The rest of the services I tried were either slow, provided too many features for me to care about or didn&rsquo;t have an API or apps.</p>
+
+<p>I wanted a reader that was simple, not bloated with features and did everything that Google Reader did. <a href="http://tt-rss.org/">Tiny Tiny RSS</a> did all of that, best of all it was open source and self hosted. It was simple and had plug-ins which you can install or develop your self.</p>
+
+<p>I couldn&rsquo;t install this on my server due to some constraints so I decided to look at <a href="https://www.heroku.com/">Heroku</a>. I came across a script called <a href="https://github.com/projectdelphai/ttrss-on-heroku">ttrss-on-heroku</a> and he was trying to do the exact same thing as me. I used the script and got TTRSS set up with in 5 minutes and have been using it for the past 3 weeks and it has been working perfectly. The feeds get updated every 5 minutes and the cost of this set up on Heroku is 0. I recommend you read up on how exactly this works from the script developers post <a href="http://projectdelphai.github.io/blog/2013/03/23/tt-rss-on-heroku-part-2/">here</a>.</p>
+
+<p>I&rsquo;ve installed <a href="https://play.google.com/store/apps/details?id=org.ttrssreader">TTRSS-Reader</a> on my Android, while it isn&rsquo;t pretty to look at, it does the job.
+If you have a iOS device, you might want to install Reeder<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, you can use that with TTRSS. All you need to do is install the <a href="http://tt-rss.org/forum/viewtopic.php?f=22&amp;t=1981">plug-in</a>.</p>
+
+<p>To have that Google Reader elements, I installed the following plug ins:</p>
+
+<ul>
+<li><a href="http://tt-rss.org/forum/viewtopic.php?f=22&amp;t=1574">Google Reader theme</a></li>
+<li><a href="http://tt-rss.org/forum/viewtopic.php?f=22&amp;t=1363">Google Reader keyboard shortcuts</a></li>
+<li><a href="https://github.com/tribut/ttrss-videoframes">Video frames</a>, this embeds videos into TTRSS.</li>
+</ul>
+
+
+<p>Another thing, I had to setup was starred articles to Pinboard. I used ifttt for this. In the <strong>Special</strong> folder there is a subsection called <strong>Starred</strong>, you can actually view this as a RSS feed, by clicking on the RSS icon on the top right-hand side. With this you should get something like this:</p>
+
+<pre><code>http://myrssreader.herokuapp.com/public.php?op=rss&amp;id=-1&amp;key=2cd209as34df3451eedef139cba4b19d10ee6158
+</code></pre>
+
+<p>With that feed URL, you can set up a ifttt recipe that takes the RSS feed and adds any new posts to your Pinboard.</p>
+
+<p>This is my full setup to replace Google Reader and has been working well so far. Heroku is awesome for making available the free plan and hope they never remove this, and <a href="http://tt-rss.org/redmine/users/4">Andrew Dolgov</a> is awesome for developing TTRSS.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>The Fever integration is currently only available to iPhone, but is coming to rest of the devices soon as <a href="https://twitter.com/reederapp/status/317003560963407872">tweeted</a> by the developer.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Transport for London storing passwords in plaintext - Blog</title>
+  <meta name="author" content="yn">
+
+  
+  <meta name="description" content="Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my Photocard login from Transport for London, I &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.yogeshn.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@finitepost">
+<meta property="twitter:url" content="http://blog.yogeshn.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext">
+<meta property="twitter:title" content="Transport for London storing passwords in plaintext">
+<meta property="twitter:description" content="Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my Photocard login from Transport for London, I couldn&rsquo;t remember what this account was for so I &hellip;">
+<meta name="twitter:creator" content="@yogesh_n">
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8387189-19']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner">
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.yogeshn.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="/colophon">Colophon</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+  
+    
+      <h1 class="entry-title">Transport for London Storing Passwords in Plaintext</h1>
+    
+  
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-20T00:00:00+01:00" pubdate data-updated="true">Aug 20<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Yesterday while I was cleaning out my online accounts, deleted accounts and things I came across my <a href="https://photocard.tfl.gov.uk">Photocard</a> login from Transport for London, I couldn&rsquo;t remember what this account was for so I decided to login, weirdly it said my password was incorrect, but this would have been impossible for me (unless I got hacked) because I use 1Password to generate random passwords and always store them in the app. Thinking I might have made a mistake when I saved it, I decided to do the good old &ldquo;Forgot your password&rdquo; procedure, entered my email and everything, and then I got the email.</p>
+
+<p>When I got the email, I was amazed to see that it wasn&rsquo;t a link to reset my password but an actually password, I then decided to compare the password in the email and the password I saved in 1Password and then I was shocked to see that they actually emailed me my password.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m92ahhRh6K1qamsz8.png" alt="" /></p>
+
+<p>Now, you might be wondering if they emailed me my password why wasn&rsquo;t I able to login? Let me explain, 99% of my passwords at 16 characters, when I signed up to TfL photocard I created a 16 character password (it didn&rsquo;t give me an error saying it has to less than 16 characters). But the password they emailed me was 10 characters, they truncated my 16 characters password to 10. How can this be possible?</p>
+
+<p>I decided to Google around to see how I can find out if passwords are being stored in plaintext, I came across this question on <a href="http://stackoverflow.com/questions/701801/how-to-tell-if-a-site-stores-passwords-in-plain-text">Stackoverflow</a>.</p>
+
+<p>I read through all of the answers and comparing how TfL gave me my password:</p>
+
+<ol>
+<li> They managed to cut down my 16 character password to 10 and this is only possible if they stored it in plaintext I reckon.</li>
+<li> They emailed me my password in plaintext.</li>
+</ol>
+
+
+<p>I am aware that this might not been they are stored in plaintext but these are very bad security practices for a <strong>government body.</strong></p>
+
+<p>Also TfL has multiple &ldquo;minisites&rdquo; which require a login, and I&rsquo;m not 100% if this is the care for all of them or just this one. But, even if it is this one it is still a shambles because it contains my personal details.</p>
+
+<p>NOTE: I&rsquo;m not 100% sure that they are storing it in plaintext but the way the are sending me my password and somehow managed to update my passwords shows hints they might be and their security practices sucks.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+     <!-- 
+  
+
+<span class="byline author vcard">Posted by <span class="fn">yn</span></span>
+ -->
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-20T00:00:00+01:00" pubdate data-updated="true">Aug 20<span>th</span>, 2012</time> &bull;
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.yogeshn.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext/" data-via="" data-counturl="http://blog.yogeshn.com/2012/08/20/transport-for-london-storing-passwords-in-plaintext/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/08/13/never-use-black/" title="Previous Post: Never Use Black">&laquo; Never Use Black</a>
+      
+      
+        <a class="basic-alignment right" href="/2012/08/22/dear-google-please-force-developers-to-follow-android-design-guidelines/" title="Next Post: Dear Google, Please Force Developers To Follow Android Design Guidelines">Dear Google, Please Force Developers To Follow Android Design Guidelines &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/08/03/artisan/">Artisan</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/06/24/quick-start-guide-to-setting-up-octopress-from-tumblr/">Quick Start Guide to Setting Up Octopress From Tumblr</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/29/open-source-alternative-to-google-reader/">Open Source Alternative to Google Reader</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/24/migrating-from-tumblr-to-octopress/">Migrating from Tumblr to Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/05/24/hello-world/">Hello World</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - yn <br/>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
